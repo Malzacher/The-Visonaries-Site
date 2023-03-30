@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Roboto+Mono&display=swap');
+
+:root {
+    --main-color: #CED7F3;
+    --main-bg-color: #0D192D;
+    --link-colour: #5EE9C5;
+}
+
+* {
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-family: 'Roboto Mono', monospace;
+}
