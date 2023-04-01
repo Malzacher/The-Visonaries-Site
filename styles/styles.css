@@ -1,0 +1,31 @@
+body{
+    color: white;
+}
+.col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+.col-md-6 h1 {
+    line-height: 0.5; /* adjust to your preference */
+    font-weight: bolder;
+    font-size: 50px;
+  }
+.bg-dark{
+    background-color: #0c182d;
+}
+.heading-color{
+    color: #5debc6;
+}
+
+.div p.gray{
+    color: #646971;
+}
+
+#colour{
+    color: #646971;
+}
