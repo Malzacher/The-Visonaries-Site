@@ -1,0 +1,79 @@
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 2fr;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+h2 {
+    color: #5EE9C5;
+    background: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: normal;
+    margin: auto;
+    padding: 0px;
+}
+
+h3{
+    color: #CED7F3;
+    background: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: normal;
+    margin: auto;
+    padding: 0px;
+}
+
+section {
+    padding: 20px;
+    border: 2px solid white(96, 185, 244);
+}
+
+
+
+p {
+    color: white;
+    background: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    font-weight: normal;
+    margin: auto;
+    padding: 0px 0px 0px;
+}
+
+.leadership {
+    color: #5EE9C5;
+  }
+  
+  .team {
+    color: white;
+  }
+
+header {
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+    padding: 25px;
+    height: auto;
+    width: auto;
+    border: 10px;
+    display: grid;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Roboto+Mono&display=swap');
+
+:root {
+    --main-color: #CED7F3;
+    --main-bg-color: #0D192D;
+    --link-colour: #5EE9C5;
+}
+
+* {
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-family: 'Roboto Mono', monospace;
+}
+
