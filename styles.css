@@ -19,7 +19,7 @@
 
 .container {
     clear: both;
-    overflow: auto;
+    overflow: auto;    
 }
 
 nav {
@@ -95,6 +95,49 @@ footer {
     width:100%;
     height:100px;   
     text-align: center;
-    position:absolute; 
+    /*position:absolute; */
     bottom:0;
  }
+
+/* About Us CSS*/
+ .aboutus-container {
+    border-top: 1px solid #CED7F3;
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #CED7F3;
+  }
+  
+.section-1 {
+    margin-top: 100px;
+    float:left;
+    width: 50%;
+    background-color: var(--main-bg-color);
+    margin-bottom: 100px;
+  }
+  
+.section-2 {
+    margin-top: 180px;
+    margin-left: 150px;
+    float:right;
+    width: 50%;
+    background-color: var(--main-bg-color);
+    margin-bottom: 100px;
+  }
+
+
+.section-2 h1 {
+    line-height: 0.5; /* adjust to your preference */
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+.heading-color{
+    color: var(--link-colour);
+}
+
+#colour{
+    color: #646971;
+}
+
+/* About Us CSS*/
