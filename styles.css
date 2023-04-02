@@ -17,6 +17,10 @@
     transition: all 0.3s ease-in-out;
 }
 
+.clear {
+    clear: both;
+}
+
 .container {
     clear: both;
     overflow: auto;    
@@ -141,3 +145,45 @@ footer {
 }
 
 /* About Us CSS*/
+
+.clear{
+    clear: both;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.left {
+    position: relative;
+    float: left;
+    width: 550px;
+    height: 450px;
+    padding-top: 220px;
+}
+
+.left h1 {
+    line-height: 0.5; /* adjust to your preference */
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.right{
+    width: 450px;
+    float: right;
+}
+
+.right button{
+    background: none;
+    border: 1px var(--link-colour) solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.right .box{
+    width: 450px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CED7F3;
