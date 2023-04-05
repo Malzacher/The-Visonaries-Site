@@ -23,7 +23,7 @@
 
 .container {
     clear: both;
-    overflow: auto;    
+    overflow: auto;
 }
 
 nav {
@@ -57,15 +57,20 @@ hr {
 }
 
 .hero-container {
-    margin-top: 100px;
+    margin-top: 120px;
     display: flex;
     flex-wrap: wrap;
     /* width: calc(40% - 40px); */
     padding: 80px;
+    margin-bottom: 120px;
 }
 
 .hero-text {
     flex-basis: 40%;
+}
+
+.hero-image {
+    flex-basis: 60%;
 }
 
 h1 {
@@ -94,59 +99,70 @@ h1 {
     opacity: 1;
 }
 
+/* ---------------------------------------------------------------------- */
+
 footer {
-    
-    width:100%;
-    height:100px;   
+    width: 100%;
+    height: 100px;
     text-align: center;
     /*position:absolute; */
-    bottom:0;
- }
+    bottom: 0;
+}
+
+/* ---------------------------------------------------------------------- */
 
 /* About Us CSS*/
- .aboutus-container {
+.aboutus-container {
     border-top: 1px solid #CED7F3;
     margin-top: 100px;
     display: flex;
     margin-bottom: 100px;
     border-bottom: 1px solid #CED7F3;
-  }
-  
+    padding: 80px;
+}
+
 .section-1 {
     margin-top: 100px;
-    float:left;
+    float: left;
     width: 50%;
-    background-color: var(--main-bg-color);
+
     margin-bottom: 100px;
-  }
-  
+}
+
 .section-2 {
     margin-top: 180px;
     margin-left: 150px;
-    float:right;
+    float: right;
     width: 50%;
-    background-color: var(--main-bg-color);
+
     margin-bottom: 100px;
-  }
+}
 
 
 .section-2 h1 {
-    line-height: 0.5; /* adjust to your preference */
+    line-height: 1.2;
+    /* adjust to your preference */
     font-weight: bolder;
     font-size: 50px;
-  }
+    padding-left: 50px;
+    padding-right: 60px;
+}
 
-.heading-color{
+#text-important {
     color: var(--link-colour);
 }
 
-#colour{
+.heading-color {
+    color: var(--link-colour);
+}
+
+#colour {
     color: #646971;
 }
 
 /* About Us CSS*/
 
-.clear{
+.clear {
     clear: both;
 }
 
@@ -155,27 +171,32 @@ footer {
     margin: 0 auto;
 }
 
-
 .left {
     position: relative;
     float: left;
     width: 550px;
     height: 450px;
     padding-top: 220px;
+    padding-left: 40px
+}
+
+.title { 
+    color: #646966;
 }
 
 .left h1 {
-    line-height: 0.5; /* adjust to your preference */
+    line-height: 1.2;
+    /* adjust to your preference */
     font-weight: bolder;
     font-size: 50px;
 }
 
-.right{
+.right {
     width: 450px;
     float: right;
 }
 
-.right button{
+.right button {
     background: none;
     border: 1px var(--link-colour) solid;
     border-radius: 5px;
@@ -183,12 +204,12 @@ footer {
     cursor: pointer;
 }
 
-.right .box{
+.right .box {
     width: 450px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     border-bottom: 1px solid #CED7F3;
- }   
-    
+}
+
 /*leadership*/
 .leadership-container {
     border-top: 1px solid #CED7F3;
@@ -197,12 +218,10 @@ footer {
     margin-bottom: 0px;
     border-bottom: 1px solid #CED7F3;
     grid-gap: 40px;
-    padding-top:220px;
-    
+    padding-top: 220px;
 }
 
-
-.leader h6{
+.leader h6 {
     color: var(--link-colour);
     background: none;
     font-size: 20px;
@@ -211,7 +230,7 @@ footer {
     padding: 0px;
 }
 
-.leader h7{
+.leader h7 {
     color: #CED7F3;
     background: none;
     font-size: 20px;
@@ -220,15 +239,11 @@ footer {
     padding: 0px;
 }
 
-
-
-
 .top {
-    
     width: 550px;
     height: 450px;
     font-size: 80px;
-    position:static;
-    top:10px;
-    left:5px;
+    position: static;
+    top: 10px;
+    left: 5px;
 }
