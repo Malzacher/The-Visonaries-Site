@@ -129,6 +129,10 @@ footer {
     margin-bottom: 100px;
 }
 
+.section-1 p {
+    font-size: 16px;
+}
+
 .section-2 {
     margin-top: 180px;
     margin-left: 0 auto;
