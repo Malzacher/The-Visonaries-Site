@@ -19,5 +19,3 @@ function rotateText() {
 
   // call the function when the window loads
   window.onload = rotateText;
-  
-  window.onload = rotateText;
