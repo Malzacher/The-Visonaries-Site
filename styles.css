@@ -77,6 +77,11 @@ hr {
     flex-basis: 60%;
 }
 
+.hero-image img {
+    height: 100%;
+    float: right;
+}
+
 h1 {
     font-size: 3.5rem;
     line-height: 0.5;
