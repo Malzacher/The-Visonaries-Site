@@ -17,13 +17,11 @@
     transition: all 0.3s ease-in-out;
 }
 
-.clear {
-    clear: both;
-}
+
 
 .container {
-    clear: both;
     overflow: auto;
+
 }
 
 nav {
@@ -67,6 +65,12 @@ hr {
 
 .hero-text {
     flex-basis: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero-text h1 {
+    line-height: 1;
 }
 
 .hero-image {
@@ -80,6 +84,7 @@ h1 {
 
 #rotate {
     color: var(--link-colour);
+    margin-top: 0;
 }
 
 #learn-more {
@@ -99,6 +104,17 @@ h1 {
     opacity: 1;
 }
 
+@media (max-width: 900px) {
+    .hero-text {
+        flex-basis: calc(100% - 80px);
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+}
+
 /* ---------------------------------------------------------------------- */
 
 footer {
@@ -113,9 +129,10 @@ footer {
 /* ---------------------------------------------------------------------- */
 
 /* About Us CSS*/
-.clear{
+.clear {
     clear: both;
 }
+
 .aboutus-container {
     border-top: 1px solid #CED7F3;
     width: calc(100% - 160px);
@@ -133,14 +150,15 @@ footer {
     margin-bottom: 100px;
 }*/
 
-.section-1,.section-2{
-    flex-basis: 50%;    
+.section-1,
+.section-2 {
+    flex-basis: 50%;
 }
 
 .section-1 {
     align-self: center;
     flex-grow: 1;
-  }
+}
 
 /*.section-2 {
     margin-top: 180px;
@@ -154,8 +172,9 @@ footer {
     margin-left: 50px;
     align-self: center;
     height: 450px;
-    order: 2; /* Change the order of section 2 */
-  }
+    order: 2;
+    /* Change the order of section 2 */
+}
 
 
 .section-2 h1 {
@@ -180,29 +199,36 @@ footer {
 /* For screens smaller than 768px */
 @media (max-width: 768px) {
     .aboutus-container {
-        flex-direction: column; /* Change the flex-direction */
-      }
-    
-      .section-1, .section-2 {
-        flex-basis: 100%; /* Set the width to full */
-        order: 1; /* Change the order of section 1 */
-        padding: 0 40px; /* Add some padding */
-        margin-bottom: 50px; /* Add some margin between the sections */
-      }
+        flex-direction: column;
+        /* Change the flex-direction */
+    }
 
-      .section-2{
+    .section-1,
+    .section-2 {
+        flex-basis: 100%;
+        /* Set the width to full */
+        order: 1;
+        /* Change the order of section 1 */
+        padding: 0 40px;
+        /* Add some padding */
+        margin-bottom: 50px;
+        /* Add some margin between the sections */
+    }
+
+    .section-2 {
         margin-left: auto;
         margin-bottom: -50px;
-      }
-  }
-  
-  /* For screens larger than 768px */
-  @media (min-width: 768px) {
-    .section-2 {
-      margin-top: 180px; /* keep original margin-top for larger screens */
-      margin-left: 50px;
     }
-  }
+}
+
+/* For screens larger than 768px */
+@media (min-width: 768px) {
+    .section-2 {
+        margin-top: 180px;
+        /* keep original margin-top for larger screens */
+        margin-left: 50px;
+    }
+}
 
 /* About Us CSS*/
 
@@ -225,7 +251,7 @@ footer {
     height: 450px;
 }
 
-.title { 
+.title {
     color: #646966;
 }
 
@@ -282,6 +308,7 @@ footer {
     top: 10px;
     left: 5px;
 }
+
 .leadership-container h1 {
     text-align: right;
     margin: 140px;
