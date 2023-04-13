@@ -141,19 +141,12 @@ footer {
 .aboutus-container {
     border-top: 1px solid #CED7F3;
     width: calc(100% - 160px);
-    padding: 80px;
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 220px;
+    margin-top: 120px;
+    padding: 80px;
+    margin-bottom: 120px;
     border-bottom: 1px solid #CED7F3;
 }
-
-/*.section-1 {
-    margin-top: 100px;
-    float: left;
-    width: 50%;
-    margin-bottom: 100px;
-}*/
 
 .section-1,
 .section-2 {
@@ -161,24 +154,14 @@ footer {
 }
 
 .section-1 {
-    align-self: center;
     flex-grow: 1;
+    margin-left: auto;
 }
 
-/*.section-2 {
-    margin-top: 180px;
-    margin-left: 0 auto;
-    width: 50%;
-    padding-left: 100px;
-    margin-bottom: 100px;
-}*/
-
 .section-2 {
-    margin-left: 50px;
-    align-self: center;
-    height: 450px;
     order: 2;
     /* Change the order of section 2 */
+    margin-bottom: 20px;
 }
 
 
@@ -210,28 +193,32 @@ footer {
 
     .section-1,
     .section-2 {
-        flex-basis: 100%;
+        flex-basis: calc(100% - 80px);
         /* Set the width to full */
-        order: 1;
-        /* Change the order of section 1 */
-        padding: 0 40px;
-        /* Add some padding */
-        margin-bottom: 50px;
-        /* Add some margin between the sections */
+        margin-left: auto;
+    }
+
+    .section-1{
+        order: 2;
+        margin-bottom: 120px;
     }
 
     .section-2 {
-        margin-left: auto;
-        margin-bottom: -50px;
+        order: 1;
+        margin-top: 120px;
+        /* Change the order of section 1 */
     }
 }
 
 /* For screens larger than 768px */
 @media (min-width: 768px) {
-    .section-2 {
-        margin-top: 180px;
-        /* keep original margin-top for larger screens */
-        margin-left: 50px;
+    .section-2{
+        margin-top: 120px;
+        padding: 80px;
+        margin-bottom: 120px;
+    }
+    .section-1{
+        margin-top: 20px;
     }
 }
 
