@@ -310,6 +310,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     grid-gap: 40px;
+    margin-top: 120px;
     margin-bottom: 220px;
 }
 
