@@ -17,7 +17,9 @@
     transition: all 0.3s ease-in-out;
 }
 
-
+.clear {
+    clear: both;
+}
 
 .container {
     overflow: auto;
@@ -155,13 +157,15 @@ footer {
 
 .section-1 {
     flex-grow: 1;
-    margin-left: auto;
+    malign-self: center;
 }
 
 .section-2 {
+    margin-left: 50px;
+    align-self: center;
+    height: 450px;
     order: 2;
     /* Change the order of section 2 */
-    margin-bottom: 20px;
 }
 
 
@@ -193,19 +197,15 @@ footer {
 
     .section-1,
     .section-2 {
-        flex-basis: calc(100% - 80px);
-        /* Set the width to full */
-        margin-left: auto;
-    }
-
-    .section-1{
-        order: 2;
-        margin-bottom: 120px;
+        flex-basis: 100%; /* Set the width to full */
+        order: 1; /* Change the order of section 1 */
+        padding: 0 40px; /* Add some padding */
+        margin-bottom: 50px; /* Add some margin between the sections */
     }
 
     .section-2 {
-        order: 1;
-        margin-top: 120px;
+        margin-left: auto;
+        margin-bottom: -50px;
         /* Change the order of section 1 */
     }
 }
@@ -213,12 +213,8 @@ footer {
 /* For screens larger than 768px */
 @media (min-width: 768px) {
     .section-2{
-        margin-top: 120px;
-        padding: 80px;
-        margin-bottom: 120px;
-    }
-    .section-1{
-        margin-top: 20px;
+        margin-top: 180px; /* keep original margin-top for larger screens */
+        margin-left: 50px;
     }
 }
 
@@ -326,4 +322,13 @@ footer {
 
 .bold h1 {
     font-weight: 500;
+}
+@media (max-width: 946px) {
+    .content>.left,.content>.right{
+        flex-basis:100%;
+        width: 100%;
+    }
+    .content>.left{
+        height: auto;
+    }
 }
