@@ -278,6 +278,8 @@ footer {
     font-weight: normal;
     margin: auto;
     padding: 0px;
+    color: #CED7F3;
+    font-weight: bold
 }
 
 .leader h7 {
@@ -306,8 +308,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     grid-gap: 40px;
-    margin-top: 120px;
-    margin-bottom: 220px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .leader {
@@ -318,17 +320,9 @@ footer {
 .leader p {
     padding-right: 30px;
     font-size: 14px;
+    color: #CED7F3;
 }
 
 .bold h1 {
     font-weight: 500;
-}
-@media (max-width: 946px) {
-    .content>.left,.content>.right{
-        flex-basis:100%;
-        width: 100%;
-    }
-    .content>.left{
-        height: auto;
-    }
 }
