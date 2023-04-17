@@ -72,7 +72,7 @@ hr {
 }
 
 .hero-text h1 {
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .hero-image {
@@ -118,6 +118,15 @@ h1 {
 
     .hero-image {
         display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav {
+        top: 50%;
+        left: 50%;
     }
 
 }
@@ -197,10 +206,14 @@ footer {
 
     .section-1,
     .section-2 {
-        flex-basis: 100%; /* Set the width to full */
-        order: 1; /* Change the order of section 1 */
-        padding: 0 40px; /* Add some padding */
-        margin-bottom: 50px; /* Add some margin between the sections */
+        flex-basis: 100%;
+        /* Set the width to full */
+        order: 1;
+        /* Change the order of section 1 */
+        padding: 0 40px;
+        /* Add some padding */
+        margin-bottom: 50px;
+        /* Add some margin between the sections */
     }
 
     .section-2 {
@@ -212,8 +225,9 @@ footer {
 
 /* For screens larger than 768px */
 @media (min-width: 768px) {
-    .section-2{
-        margin-top: 180px; /* keep original margin-top for larger screens */
+    .section-2 {
+        margin-top: 180px;
+        /* keep original margin-top for larger screens */
         margin-left: 50px;
     }
 }
