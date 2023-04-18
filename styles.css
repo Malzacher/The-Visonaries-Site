@@ -17,6 +17,10 @@ body {
     width: 100%;
 }
 
+html,body{
+    margin: 0;
+    padding: 0;
+}
 * {
     transition: all 0.3s ease-in-out;
 }
@@ -343,4 +347,27 @@ footer {
 
 .bold h1 {
     font-weight: 500;
+}
+
+/*Adapt the Service section to the small screen */
+@media (max-width:923px) {
+	.content .right{
+		flex-basis: 50%;
+		width: 50%;
+	}
+	.content .box{
+		width: 100%;
+	}
+}
+
+@media (max-width:768px) {
+	.content .left{
+		flex-basis: 100%;
+		width: 100%;
+		height: auto;
+	}
+	.content .right{
+		flex-basis: 100%;
+		width: 100%;
+	}
 }
