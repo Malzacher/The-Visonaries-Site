@@ -397,7 +397,7 @@ footer {
 
     display: block;
     width: 100%;
-    margin-bottom:20px;
+    margin-bottom: 20px;
     margin-top: 0;
 }
 
@@ -435,4 +435,34 @@ h6 {
 #team-container p {
     font-size: 14px;
     margin-bottom: 20px;
+}
+
+.page-break {
+    width: 80%;
+}
+
+.left-culture {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    justify-content: center;
+
+}
+
+.right-culture {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-culture img {
+    max-width: 100%;
+}
+
+.left-culture p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    justify-self: center;
+    justify-content: center;
 }
