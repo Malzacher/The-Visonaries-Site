@@ -465,6 +465,8 @@ h6 {
 .right-culture img {
     width: 300px;
     height: 300px;
+    background-color: #646971;
+    border-radius: 50%;
 }
 
 .left-culture p {
@@ -480,4 +482,42 @@ h6 {
     margin-right: 10%;
     margin-top: 150px;
     margin-bottom: 150px;
+}
+
+#quotation {
+    height: 20%;
+    width: 20%;
+}
+
+.general-container h3 {
+    /* i want this on the same line as img */
+    display: inline;
+    font-size: 30px;
+    margin-top: 122px;
+}
+
+#client-container {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#left-client {
+    flex-basis: 50%;
+    float: left;
+}
+
+#right-client {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+
+#right-client img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #646966;
 }
