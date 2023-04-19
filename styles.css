@@ -380,7 +380,9 @@ footer {
 .page-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
 }
 
 #team-container {
@@ -394,11 +396,14 @@ footer {
 
 #small-title,
 #large-title {
-
     display: block;
     width: 100%;
     margin-bottom: 20px;
     margin-top: 0;
+}
+
+#small-title {
+    margin-bottom: 15px;
 }
 
 #small-title {
@@ -443,26 +448,36 @@ h6 {
 
 .left-culture {
     flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
     box-sizing: border-box;
     justify-content: center;
-
 }
 
 .right-culture {
     flex-basis: 50%;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    float: right;
 }
 
 .right-culture img {
-    max-width: 100%;
+    width: 300px;
+    height: 300px;
 }
 
 .left-culture p {
     font-size: 14px;
     margin-bottom: 20px;
-    justify-self: center;
-    justify-content: center;
+    line-height: 1.8;
+}
+
+.general-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
