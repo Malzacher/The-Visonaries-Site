@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Visionaries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../js/scripts.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+            The Visionaries
+        </div>
+        <nav>
+            <ul>
+                <!-- <li>About</li> -->
+                <li>Services</li>
+                <li>Portfolio</li>
+                <li>News</li>
+                <!-- <li>Jobs</li> -->
+                <li>Podcast</li>
+                <a href="/The-Visonaries-Site/pages/ourteam.html">
+                    <li>Team</li>
+                </a>
+                <!-- <li>Contact Us</li> -->
+            </ul>
+        </nav>
+    </div>
+    <hr />
+
+    <div class="contact-container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="firstname" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="lastname" placeholder="Your Email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Send me a Message! :)" required
+                style="height:200px">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <hr class="main-page-break">
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a
+                    href="https://www.linkedin.com/company/the-visionaries-independent-venture-broker-consutancy-for-bootsrapped-founders/people/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Podcast</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Start-Up Coaching</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

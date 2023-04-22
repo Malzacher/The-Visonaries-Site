@@ -2,7 +2,7 @@
 
 :root {
     --main-color: #CED7F3;
-    --main-bg-color: #0D192D;
+    --main-bg-color: #0d192d;
     --link-colour: #5EE9C5;
 }
 
@@ -525,3 +525,39 @@ h6 {
     border-radius: 50%;
     background-color: #646966;
 }
+
+.contact-container {
+    width: calc(100%-26%);
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: #142544;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--link-colour);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: var(--link-colour);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
