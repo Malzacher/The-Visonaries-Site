@@ -319,7 +319,9 @@ footer {
 
 .leadership-container h1 {
     text-align: right;
-    margin: 140px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .team-container {
