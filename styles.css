@@ -179,7 +179,6 @@ footer {
 .section-2 {
     order: 2;
     /* Change the order of section 2 */
-    margin-bottom: 20px;
     align-self: center;
 }
 
