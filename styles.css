@@ -605,3 +605,145 @@ input[type=submit]:hover {
     }
 
 }
+
+
+/* Styles for the news section */
+.news {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.news h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.article-list {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+
+
+.article img {
+    width: 100%;
+}
+
+.article-list h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.article-list p {
+    margin-bottom: 10px;
+}
+
+.article-list a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.article-list a:hover {
+    background-color: #666;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Styles for the featured article section */
+.featured img {
+    width: 100%;
+}
+
+.featured h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.featured p {
+    margin-bottom: 10px;
+}
+
+.featured a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.featured a:hover {
+    background-color: #666;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/*Adapt the Service section to the small screen */
+@media (max-width:768px) {
+    .article-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .article-list .article {
+        margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-list .article a {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:923px) and (min-width:768px) {
+    .article-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .article-list .article {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+    }
+
+    .article-list .article a {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width:923px) {
+
+    .article-list .article {
+        max-width: 300px;
+    }
+}
