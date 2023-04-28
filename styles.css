@@ -747,3 +747,141 @@ section {
         max-width: 300px;
     }
 }
+
+
+/*------------------Portfolio Styles------------------------*/
+
+.left-image-section {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-content-section {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.right-content-section h3 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.right-content-section p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.position-relative{
+    position: relative;
+}
+.new-container .left-image-section{
+    flex-basis: 60% !important;
+}
+.box-content {
+    margin: 0;
+    background: var(--main-color);
+    width: 500px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    color: var(--main-bg-color);
+    padding: 40px;
+}
+
+.box-content h2, .box-content h1, .box-content p{
+    background-color: transparent !important;
+    color: var(--main-bg-color) !important;
+}
+.box-content h2{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+.box-content h1{
+    font-size: 30px;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+.portfolio-grid {
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.portfolio-box {
+    width: 30%;
+    /* border:3px solid var(--link-colour); */
+    display: inline-block;
+    margin: 0 15px;
+    overflow: hidden;
+}
+
+.portfolio-box h2 {
+    font-size: 1.2rem;
+    color: --link-colour;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.portfolio-img img {
+    width: 100%;
+}
+
+/* =============== PORTFOLIO RESPONSIVE ================ */
+@media (max-width:390px) {
+    .new-container .left-image-section{
+        flex-basis:auto;
+    }
+    .box-content {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        position: relative;
+        display: block;
+    }
+    .box-content h2{
+        padding: 0 0 0 10px;
+    }
+    .box-content h1{
+        padding: 0 0 0 10px;
+        line-height: 30px;
+    }
+    .box-content p{
+        padding: 0 10px 0 10px;
+    }
+    .portfolio-box {
+        width: 41%;
+        display: inline-block;
+        margin: 0 10px;
+        overflow: hidden;
+    }
+
+    .portfolio-img {
+        height: 80px;
+    }
+
+    .portfolio-box h2 {
+        font-size: 0.9rem;
+    }
+
+    #large-title {
+        line-height: 32px;
+    }
+
+    .left-image-section {
+        margin: 0 0 20px 0;
+    }
+
+    .left-image-section img {
+        width: 100%;
+    }
+}
