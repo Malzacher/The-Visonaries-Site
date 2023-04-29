@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-    overflow: hidden;
+    overflow: auto;
 
 }
 
