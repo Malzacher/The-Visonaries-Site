@@ -14,25 +14,44 @@
 </head>
 
 <body>
-
-    <div class="container">
+    <header>
         <div class="logo">
-            The Visionaries
+            <a href="../index.html"><img src="../images/the-visionaries-startup-studio.jpeg" alt=""></a>
         </div>
-        <nav>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
             <ul>
-                <!-- <li>About</li> -->
-                <li>Services</li>
-                <a href="/The-Visonaries-Site/pages/portfolio.html"><li>Portfolio</li></a>
-                <a href="/The-Visonaries-Site/pages/news.html"><li>News</li></a>
-                <!-- <li>Jobs</li> -->
-                <li>Podcast</li>
-                <a href="/The-Visonaries-Site/pages/ourteam.html"><li>Team</li></a>
-                <!-- <li>Contact Us</li> -->
+                <li>
+                    <a href="">Services</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="news.html">News</a>
+                </li>
+                <li>
+                    <a href="">Podcast</a>
+                </li>
+                <li>
+                    <a href="ourteam.html">Team</a>
+                </li>
             </ul>
         </nav>
-    </div>
-    <hr />
+    </header>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function () {
+            nav.classList.toggle("active");
+        }
+    </script>
+
+    <hr id="nav-hr">
 
     <div class="contact-container">
         <form onsubmit="sendEmail(); reset(); return false;">

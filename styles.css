@@ -10,10 +10,11 @@
     background-color: var(--main-bg-color);
     color: var(--main-color);
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 
 }
 
-body {
+/* body {
     width: 100%;
 }
 
@@ -21,25 +22,25 @@ html,
 body {
     margin: 0;
     padding: 0;
-}
+} */
 
 * {
     transition: all 0.3s ease-in-out;
 }
 
-.container {
+/* .container {
     overflow: auto;
 
-}
+} */
 
-nav {
+/* nav {
     float: right;
     margin-right: 30px;
-}
+} */
 
-.logo {
+/* .logo {
     margin: auto;
-}
+} */
 
 li {
     font-weight: 600;
@@ -48,7 +49,7 @@ li {
 ul li,
 .logo {
     display: inline-block;
-    padding: 10px;
+    padding: 1px;
     font-size: 13px;
 }
 
@@ -136,9 +137,9 @@ h1 {
         flex-basis: 100%;
     }
 
-    .logo {
+    /* .logo {
         display: none;
-    }
+    } */
 }
 
 /* ---------------------------------------------------------------------- */
@@ -209,7 +210,7 @@ footer {
 
     .section-1,
     .section-2 {
-        flex-basis:calc(100% - 80px);
+        flex-basis: calc(100% - 80px);
         margin-left: auto;
     }
 
@@ -230,7 +231,7 @@ footer {
         margin-bottom: 120px;
     }
 
-    .section-1{
+    .section-1 {
         margin-top: 20px;
     }
 }
@@ -776,12 +777,14 @@ section {
     line-height: 1.8;
 }
 
-.position-relative{
+.position-relative {
     position: relative;
 }
-.new-container .left-image-section{
+
+.new-container .left-image-section {
     flex-basis: 60% !important;
 }
+
 .box-content {
     margin: 0;
     background: var(--main-color);
@@ -793,20 +796,25 @@ section {
     padding: 40px;
 }
 
-.box-content h2, .box-content h1, .box-content p{
+.box-content h2,
+.box-content h1,
+.box-content p {
     background-color: transparent !important;
     color: var(--main-bg-color) !important;
 }
-.box-content h2{
+
+.box-content h2 {
     font-size: 18px;
     padding: 0;
     margin: 0;
 }
-.box-content h1{
+
+.box-content h1 {
     font-size: 30px;
     padding: 0;
     margin: 10px 0 0 0;
 }
+
 .portfolio-grid {
     margin: 20px 0 0 0;
     width: 100%;
@@ -838,9 +846,10 @@ section {
 
 /* =============== PORTFOLIO RESPONSIVE ================ */
 @media (max-width:390px) {
-    .new-container .left-image-section{
-        flex-basis:auto;
+    .new-container .left-image-section {
+        flex-basis: auto;
     }
+
     .box-content {
         margin: 0;
         width: 100%;
@@ -848,16 +857,20 @@ section {
         position: relative;
         display: block;
     }
-    .box-content h2{
+
+    .box-content h2 {
         padding: 0 0 0 10px;
     }
-    .box-content h1{
+
+    .box-content h1 {
         padding: 0 0 0 10px;
         line-height: 30px;
     }
-    .box-content p{
+
+    .box-content p {
         padding: 0 10px 0 10px;
     }
+
     .portfolio-box {
         width: 41%;
         display: inline-block;
@@ -883,5 +896,124 @@ section {
 
     .left-image-section img {
         width: 100%;
+    }
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.logo {
+    color: white;
+}
+
+.logo img {
+    width: 200px;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block !important;
+    padding: 10px 13px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover {
+    color: var(--link-colour);
+}
+
+.nav-bar ul li a.active {
+    background: var(--link-colour);
+    color: var(--main-bg-color);
+}
+
+@media only screen and (max-width: 1320px) {
+    header {
+        padding: 0 50px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    header {
+        padding: 0 20px;
+
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        margin: 5px 0px;
+        background: var(--main-color);
+        margin-right: 5px;
+    }
+
+    .nav-bar {
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        transition: 0.3s;
+        overflow: hidden;
+    }
+
+    .nav-bar.active {
+        height: 300px;
+        border-bottom: 1px solid var(--);
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 0 auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+        color: var(--main-color);
+    }
+
+    #nav-hr {
+        display: none;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+
     }
 }

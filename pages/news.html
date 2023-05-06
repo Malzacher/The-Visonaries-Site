@@ -12,27 +12,49 @@
   <link rel="stylesheet" href="../styles.css">
   <script src="../js/scripts.js"></script>
 </head>
+
 <body>
-
-
-  <div class="container">
+  <header>
     <div class="logo">
-      The Visionaries
+      <a href="../index.html"><img src="../images/the-visionaries-startup-studio.jpeg" alt=""></a>
     </div>
-    <nav>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <nav class="nav-bar">
       <ul>
-        <!-- <li>About</li> -->
-        <li>Services</li>
-        <a href="/The-Visonaries-Site/pages/portfolio.html"><li>Portfolio</li></a>
-        <a href="/The-Visonaries-Site/pages/news.html"><li>News</li></a>
-        <!-- <li>Jobs</li> -->
-        <li>Podcast</li>
-        <a href="/The-Visonaries-Site/pages/ourteam.html"><li>Team</li></a>
-        <!-- <li>Contact Us</li> -->
+        <li>
+          <a href="">Services</a>
+        </li>
+        <li>
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+        <li>
+          <a href="news.html" class="active">News</a>
+        </li>
+        <li>
+          <a href="">Podcast</a>
+        </li>
+        <li>
+          <a href="ourteam.html">Team</a>
+        </li>
       </ul>
     </nav>
-  </div>
-  <hr />
+  </header>
+  <script>
+    hamburger = document.querySelector(".hamburger");
+    nav = document.querySelector("nav");
+    hamburger.onclick = function () {
+      nav.classList.toggle("active");
+    }
+  </script>
+
+  <hr id="nav-hr">
+
+
+
   <div class="news-container">
     <section class="featured">
       <h2>SPECIAL</h2>
@@ -79,11 +101,13 @@
       </div>
     </section>
   </div>
-<hr>
+  <hr>
   <footer>
     <div class="footer">
       <div class="footerIcon">
-        <a href="https://www.linkedin.com/company/the-visionaries-independent-venture-broker-consutancy-for-bootsrapped-founders/people/"><i class="fa-brands fa-linkedin"></i></a>
+        <a
+          href="https://www.linkedin.com/company/the-visionaries-independent-venture-broker-consutancy-for-bootsrapped-founders/people/"><i
+            class="fa-brands fa-linkedin"></i></a>
         <a href="#"><i class="fa-brands fa-twitter"></i></a>
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
       </div>
