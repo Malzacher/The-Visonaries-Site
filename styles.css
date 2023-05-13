@@ -1024,3 +1024,12 @@ header {
 
     }
 }
+
+/*------------------Services Styles------------------------*/
+.services-box {
+    width: 45%;
+    /* border:3px solid var(--link-colour); */
+    display: inline-block;
+    margin: 0 15px;
+    overflow: hidden;
+}
