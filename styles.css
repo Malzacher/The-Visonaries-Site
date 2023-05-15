@@ -14,6 +14,51 @@
 	
 
 }
+.fuyure{
+    color: #5EE9C5;
+}
+.Join_the{
+    color: #fff !important;
+}
+.right-cultures{
+    /* display: flex; */
+     /* align-items: center; */
+     font-size:48px;
+     text-align: center;
+}
+.left-cultures{
+    width: 35%;
+}
+.general-containers{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin:100px 0px;
+    align-items: center;
+}
+.opport{
+    text-align: center;
+    border: 1px solid #5EE9C5;
+    padding: 10px;
+}
+.Join{
+    background: #5EE9C5;
+    border-radius: 50px;
+    color: #242323;
+}
+.Join a:hover{
+  color: #000 !important;
+}
+.Join a{
+    padding: 10px 13px !important;
+    font-size: 14px !important;
+    color: #242323 !important;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
 body,html{
 	background: url('images/0428.gif_wh860.gif');
 	background-repeat: no-repeat; 
@@ -486,7 +531,12 @@ h6 {
     justify-content: flex-end;
     float: right;
 }
+.right-cultures{
+    float: right; 
+}
+.containerse{
 
+}
 .right-culture img {
     width: 300px;
     height: 300px;
@@ -499,14 +549,23 @@ h6 {
     margin-bottom: 20px;
     line-height: 1.8;
 }
-
-.general-container {
+.general-containerse {
     display: flex;
     flex-wrap: wrap;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 150px;
     margin-bottom: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.general-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 150px;
+    /* margin-bottom: 150px; */
 }
 
 #quotation {
@@ -956,18 +1015,38 @@ header {
     background: var(--link-colour);
     color: var(--main-bg-color);
 }
+.right-cultures img{
+    width: 100%;
+}
+@media only screen and (max-width: 1600px) {
+    /*header {
+        padding: 0 50px;
+    }*/
+    .right-cultures img{
+        width: 400px;
+}
+    .right-cultures{
+    font-size: 32px !important;
+}
 
+}
 @media only screen and (max-width: 1320px) {
     header {
         padding: 0 50px;
     }
-
+    .right-cultures{
+        font-size: 32px;
+    }
+    
 }
 
 @media only screen and (max-width: 1100px) {
     header {
         padding: 0 20px;
 
+    }
+    .right-cultures{
+        font-size: 32px;
     }
 }
 
