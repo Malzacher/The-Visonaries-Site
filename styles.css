@@ -1113,3 +1113,194 @@ header {
     margin: 0 15px;
     overflow: hidden;
 }
+
+/*-------------- Footer Styles ------------*/
+
+
+section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+  .thevisionaries-footer{
+      background: #0D1A2D;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font: bold 16px 'Poppins';
+      padding: 55px 50px;
+  }
+  
+  .thevisionaries-footer .footer-left,
+  .thevisionaries-footer .footer-center,
+  .thevisionaries-footer .footer-right{
+      display: inline-block;
+      vertical-align: top;
+  }
+  
+  
+  .thevisionaries-footer .footer-left{
+      width: 38%;
+  }
+  
+  
+  .thevisionaries-footer h3{
+      color:  #CED7F3;
+      font-size: 32px;
+      margin: 0;
+  }
+
+  .thevisionaries-footer h3 span{
+	color:  #5EE9C5;
+}
+  
+  
+  .thevisionaries-footer .footer-links{
+      color:  #CED7F3;
+      margin: 20px 0 12px;
+      padding: 0;
+  }
+  
+  .thevisionaries-footer .footer-links a{
+      display:inline-block;
+      line-height: 1.8;
+    font-weight:400;
+      text-decoration: none;
+      color:  inherit;
+  }
+  
+  .thevisionaries-footer .footer-company-name{
+      color:  #CED7F3;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0;
+  }
+  
+  
+  .thevisionaries-footer .footer-center{
+      width: 35%;
+  }
+  
+  .thevisionaries-footer .footer-center i{
+      background-color:  #33383b;
+      color: #CED7F3;
+      font-size: 25px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      margin: 10px 15px;
+      vertical-align: middle;
+      
+  }
+  
+  .thevisionaries-footer .footer-center i.fa-envelope{
+      font-size: 17px;
+      line-height: 38px;
+  }
+  
+  .thevisionaries-footer .footer-center p{
+      display: inline-block;
+      color: #CED7F3;
+    font-weight:400;
+      vertical-align: middle;
+      margin:0;
+  }
+  
+  .thevisionaries-footer .footer-center p span{
+      display:block;
+      font-weight: normal;
+      font-size:14px;
+      line-height:2;
+  }
+  
+  .thevisionaries-footer .footer-center p a{
+      color:  #5EE9C5;
+      text-decoration: none;;
+  }
+  
+  .thevisionaries-footer .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color:#CED7F3;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .thevisionaries-footer .footer-links .link-1:before {
+    content: none;
+  }
+  
+  
+  .thevisionaries-footer .footer-right{
+      width: 20%;
+  }
+  
+  .thevisionaries-footer.footer-company-about{
+      line-height: 20px;
+      color:  #92999f;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+  }
+  
+  .thevisionaries-footer .footer-company-about span{
+      display: block;
+      color:  #f5f5f7;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+  
+  .thevisionaries-footer .footer-icons{
+      margin-top: 25px;
+  }
+  
+  .thevisionaries-footer .footer-icons a{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      background-color:  #33383b;
+      border-radius: 2px;
+  
+      font-size: 20px;
+      color: #CED7F3;
+      text-align: center;
+      line-height: 35px;
+  
+      margin-right: 3px;
+      margin-bottom: 5px;
+  }
+  
+  
+  @media (max-width: 880px) {
+  
+      .thevisionaries-footer{
+          font: bold 14px sans-serif;
+      }
+  
+      .thevisionaries-footer .footer-left,
+      .thevisionaries-footer .footer-center,
+      .thevisionaries-footer .footer-right{
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          text-align: center;
+      }
+  
+      .thevisionaries-footer .footer-center i{
+          margin-left: 0;
+      }
+  
+  }
