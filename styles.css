@@ -7,19 +7,20 @@
 }
 
 * {
-    /* background-color: var(--main-bg-color); */
+    background-color: var(--main-bg-color);
     color: var(--main-color);
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-	
-
 }
+
 .fuyure{
     color: #5EE9C5;
 }
+
 .Join_the{
     color: #fff !important;
 }
+
 .right-cultures{
     /* display: flex; */
      /* align-items: center; */
@@ -27,9 +28,11 @@
      text-align: center;
      font-weight: bold;
 }
+
 .left-cultures{
     width: 35%;
 }
+
 .general-containers{
     display: flex;
     align-items: center;
@@ -60,12 +63,12 @@
     transition: 0.2s;
     margin: 0 5px;
 }
-body,html{
+/* body,html{
 	background: url('images/0428.gif_wh860.gif');
 	background-repeat: no-repeat; 
 	background-size: 100% 100%; 
 	
-}
+} */
 /* body {
     width: 100%;
 }
