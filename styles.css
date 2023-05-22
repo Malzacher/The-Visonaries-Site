@@ -572,6 +572,10 @@ h6 {
     margin-bottom: 150px;
 }
 
+.general-block{
+    display: block !important;
+}
+
 #quotation {
     height: 20%;
     width: 20%;
@@ -914,8 +918,17 @@ section {
     width: 100%;
 }
 
+/*------------------Services Styles------------------------*/
+.services-box {
+    width: 45%;
+    /* border:3px solid var(--link-colour); */
+    display: inline-block;
+    margin: 0 15px;
+    overflow: hidden;
+}
+
 /* =============== PORTFOLIO RESPONSIVE ================ */
-@media (max-width:390px) {
+@media (max-width:560px) {
     .new-container .left-image-section {
         flex-basis: auto;
     }
@@ -966,6 +979,13 @@ section {
 
     .left-image-section img {
         width: 100%;
+    }
+
+    .services-box{
+        width: 39%;
+    }
+    .services-box h2{
+        font-size: .9rem;
     }
 }
 
@@ -1108,14 +1128,6 @@ header {
     }
 }
 
-/*------------------Services Styles------------------------*/
-.services-box {
-    width: 45%;
-    /* border:3px solid var(--link-colour); */
-    display: inline-block;
-    margin: 0 15px;
-    overflow: hidden;
-}
 
 /*-------------- Footer Styles ------------*/
 
@@ -1123,7 +1135,7 @@ header {
 section {
     width: 100%;
     display: inline-block;
-    background: #333;
+    /* background: #333; */
     height: 50vh;
     text-align: center;
     font-size: 22px;
