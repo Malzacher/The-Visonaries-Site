@@ -5,9 +5,11 @@
     --main-bg-color: #0d192d;
     --link-colour: #5EE9C5;
 }
-
+body{
+    background:#0d192d;
+}
 * {
-    background-color: var(--main-bg-color);
+    /* background-color: var(--main-bg-color); */
     color: var(--main-color);
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -18,14 +20,15 @@
 }
 
 .Join_the {
+    font-weight: 600;
     color: #fff !important;
 }
 
 .right-cultures {
     /* display: flex; */
     /* align-items: center; */
-    font-size: 48px;
-    text-align: center;
+    font-size:50px;
+    /* text-align: center; */
     font-weight: bold;
 }
 
@@ -1043,7 +1046,9 @@ header {
     transition: 0.2s;
     margin: 0 5px;
 }
-
+/* #Join a{
+    display:flex !important;
+} */
 .nav-bar ul li a:hover {
     color: var(--link-colour);
 }
@@ -1120,10 +1125,13 @@ header {
     }
 
     .nav-bar.active {
-        height: 300px;
+        background: #0d192d;
+        height: 380px;
         border-bottom: 1px solid var(--);
     }
-
+    .right-cultures{
+        font-size: 26px !important;
+    }
     .nav-bar ul {
         display: block;
         width: fit-content;
