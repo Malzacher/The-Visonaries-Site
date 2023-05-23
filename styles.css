@@ -237,7 +237,6 @@ footer {
     order: 2;
     /* Change the order of section 2 */
     align-self: center;
-    margin : 0 0 0 120px;
 }
 
 
@@ -692,6 +691,8 @@ input[type=submit]:hover {
 .news h2 {
     margin-top: 0;
     margin-bottom: 20px;
+    color: #45a049;
+    
 }
 
 .article-list {
@@ -1128,7 +1129,48 @@ header {
 
     }
 }
-
+/* news */
+.articles{
+		height: 65vh;
+	}
+	.article:hover{
+		cursor: pointer;
+		transform: translateY(-15px);
+	}
+	.article .article-a{
+		background-color: transparent;
+	}
+	.article .article-a:hover{
+		background-color: transparent;
+	}
+/* abouts */
+.Abouts h2{
+		font-size:32px;
+		color: #5EE9C5;
+	}
+	.flex{
+		display: flex;
+		justify-content: space-between;
+	}
+	.aboutimg{
+		width: 45%;
+		height: 120%;
+		box-shadow: 1px 1px 4px 2px #fff;
+		border-radius: 10px;
+	}
+	.imgInfo{
+		width: 45%;
+	}
+	.imgInfo h4{
+		margin-top: 0;
+		color: #5EE9C5;
+	}
+	.imgInfo p{
+		line-height: 40px;
+	}
+    .Abouts{
+        padding-bottom: 80px;
+       }
 
 /*-------------- Footer Styles ------------*/
 
@@ -1141,7 +1183,7 @@ section {
     text-align: center;
     font-size: 22px;
     font-weight: 700;
-    text-decoration: underline;
+    color: #5EE9C5;
   }
   
   .thevisionaries-footer{
