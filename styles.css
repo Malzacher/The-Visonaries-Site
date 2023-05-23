@@ -146,6 +146,11 @@ hr {
     flex-basis: 60%;
 }
 
+.hero-image video {
+    height: 100%;
+    float: right;
+}
+
 .hero-image img {
     height: 100%;
     float: right;
