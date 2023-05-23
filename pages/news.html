@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="../styles.css">
   <script src="../js/scripts.js"></script>
 </head>
-
 <body>
   <header>
     <div class="logo">
@@ -25,6 +24,9 @@
     </div>
     <nav class="nav-bar">
       <ul>
+        <li>
+          <a href="aboutus.html">About us</a>
+      </li>
         <li>
           <a href="services.html">Services</a>
         </li>
@@ -53,13 +55,11 @@
       nav.classList.toggle("active");
     }
   </script>
-
   <hr id="nav-hr">
 
 
-
   <div class="news-container">
-    <section class="featured">
+   <!-- <section class="featured">
       <h2>SPECIAL</h2>
       <div class="featured-image">
         <img src="https://picsum.photos/600/400?random=1" alt="" />
@@ -70,42 +70,48 @@
         </p>
         <a href="#" class="btn">More</a>
       </div>
-    </section>
+    </section> -->
 
     <section class="articles">
       <h2>News information</h2>
       <div class="article-list">
         <div class="article">
-          <img src="https://picsum.photos/300/200?random=2" alt="" />
-          <h3>Australian News</h3>
-          <p>
-            The Visionaries
-          </p>
-          <a href="#">More</a>
+			<a  href="news1.html" class="article-a">
+				<img src="https://picsum.photos/300/200?random=2" alt="" />
+			  <h3>Australian News</h3>
+			  <p>
+				The Visionaries
+			  </p>
+         
+		  </a>
         </div>
 
         <div class="article">
-          <img src="https://picsum.photos/300/200?random=3" alt="" />
-          <h3>Global news</h3>
-          <p>
-            The Visionaries
-          </p>
-          <a href="#">More</a>
+			<a  href="news2.html" class="article-a">
+			  <img src="https://picsum.photos/300/200?random=3" alt="" />
+			  <h3>Global news</h3>
+			  <p>
+				The Visionaries
+			  </p>
+			  
+		  	</a>
         </div>
 
         <div class="article">
-          <img src="https://picsum.photos/300/200?random=4" alt="" />
-          <h3>Financial News</h3>
-          <p>
-            The Visionaries
-          </p>
-          <a href="#">More</a>
+			<a href="news3.html" class="article-a">
+				<img src="https://picsum.photos/300/200?random=4" alt="" />
+				<h3>Financial News</h3>
+				<p>
+				  The Visionaries
+				</p>
+				
+			</a>
+          
         </div>
       </div>
     </section>
   </div>
-  <hr>
-
+  <hr id="nav-hr">
   <footer class="thevisionaries-footer">
   
     <div class="footer-left">
@@ -113,6 +119,7 @@
       <h3>The <span>Visionaries</span></h3>
 
       <p class="footer-links">
+        <a href="pages/aboutus.html">About us</a>
         
         <a href="pages/services.html">Services</a>
       
