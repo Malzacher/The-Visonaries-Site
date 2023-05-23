@@ -222,7 +222,7 @@ footer {
 }
 
 .aboutus-container {
-    width: calc(100% - 160px);
+    /* width: calc(100% - 160px); */
     display: flex;
     padding: 80px;
 }
@@ -305,7 +305,7 @@ footer {
 }
 
 .content {
-    width: calc(100% - 160px);
+    /* width: calc(100% - 160px); */
     padding: 80px;
     display: flex;
     flex-wrap: wrap;
