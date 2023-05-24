@@ -913,7 +913,8 @@ section {
 }
 
 .new-container .left-image-section {
-    flex-basis: 60% !important;
+    flex-basis: 60% !important; 
+    margin-bottom: 180px;  
 }
 
 .box-content {
@@ -962,6 +963,7 @@ section {
 .portfolio-box h2 {
     font-size: 1.2rem;
     color: --link-colour;
+    margin:10px 0 0 0;
 }
 
 .portfolio-img {
@@ -982,6 +984,11 @@ section {
     display: inline-block;
     margin: 0 15px;
     overflow: hidden;
+}
+
+.services-box h2{
+    margin: 10px 0 0 0;
+    font-size: 1.5rem;
 }
 
 /* =============== PORTFOLIO RESPONSIVE ================ */
