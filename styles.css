@@ -127,13 +127,25 @@ hr {
     flex-wrap: wrap;
     /* width: calc(40% - 40px); */
     padding: 80px;
+    justify-content: space-between;
     margin-bottom: 120px;
+}
+
+body > header > nav > ul > li.Join > a {
+    background-color: var(--link-colour);
+    color: var(--main-color);
+    transition: 0.3s;
 }
 
 .hero-text {
     flex-basis: 40%;
     margin-top: 0;
     margin-bottom: 0;
+    /* text-align: left; */
+}
+
+body > div.hero-container > div.hero-text {
+    text-align: left;
 }
 
 .hero-text h1 {
@@ -519,6 +531,8 @@ h6 {
 
 .main-page-break {
     width: 90%;
+    margin: 0 auto;
+    display: block;
 }
 
 .left-culture {
@@ -1391,9 +1405,9 @@ section {
   
   }
 
-    @media (min-width: 768px){
+    /* @media (min-width: 768px){
         #text-important{
             display: none;
         }
     }
-    
+     */
