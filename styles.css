@@ -219,7 +219,7 @@ footer {
 }
 
 .aboutus-container {
-    text-align: left;
+    /* width: calc(100% - 160px); */
     display: flex;
     padding: 80px;
     padding-right: 20px;
@@ -302,6 +302,7 @@ footer {
 }
 
 .content {
+    /* width: calc(100% - 160px); */
     padding: 80px;
     display: flex;
     flex-wrap: wrap;
