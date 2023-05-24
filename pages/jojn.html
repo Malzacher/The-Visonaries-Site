@@ -11,9 +11,42 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="../styles.css">
   <script src="../js/scripts.js"></script>
+  
 </head>
 
 <body>
+	<style type="text/css">
+		.general-containerse {
+		  display: flex;
+		  flex-wrap: wrap;
+		}
+		
+		.left-culture, .right-cultures {
+		  /*width: 50%;*/
+		  box-sizing: border-box;
+		  padding: 0 20px;
+		}
+		
+		@media screen and (max-width: 768px) {
+		  .general-containerse {
+		    flex-direction: column;
+		  }
+		
+		  .left-culture, .right-cultures {
+		    width: 100%;
+        padding: 20px;
+		  }
+		
+		  .right-cultures {
+		    order: -1; 
+			font-size: 26px !important;
+			font-family: 'Poppins', sans-serif;
+		  }
+		  
+		}
+
+	</style>
+	
   <header>
     <div class="logo">
       <a href="../index.html"><img src="../images/the-visionaries-startup-studio.jpeg" alt=""></a>
