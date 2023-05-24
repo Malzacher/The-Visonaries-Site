@@ -5,63 +5,59 @@
     --main-bg-color: #0d192d;
     --link-colour: #5EE9C5;
 }
-body{
-    background:#0d192d;
+*{
+    margin: 0;
+    padding: 0;
 }
 * {
-    /* background-color: var(--main-bg-color); */
+    background-color: var(--main-bg-color);
     color: var(--main-color);
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-.fuyure {
+.fuyure{
     color: #5EE9C5;
 }
 
-.Join_the {
-    font-weight: 600;
+.Join_the{
     color: #fff !important;
 }
 
-.right-cultures {
+.right-cultures{
     /* display: flex; */
-    /* align-items: center; */
-    font-size:50px;
-    /* text-align: center; */
-    font-weight: bold;
+     /* align-items: center; */
+     font-size:48px;
+     text-align: center;
+     font-weight: bold;
 }
 
-.left-cultures {
+.left-cultures{
     width: 35%;
 }
 
-.general-containers {
+.general-containers{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     flex-wrap: wrap;
-    margin: 100px 0px;
+    margin:100px 0px;
     align-items: center;
 }
-
-.opport {
+.opport{
     text-align: center;
     border: 1px solid #5EE9C5;
     padding: 10px;
 }
-
-.Join {
+.Join{
     background: #5EE9C5;
     border-radius: 50px;
     color: #242323;
 }
-
-.Join a:hover {
-    color: #000 !important;
+.Join a:hover{
+  color: #000 !important;
 }
-
-.Join a {
+.Join a{
     padding: 10px 13px !important;
     font-size: 14px !important;
     color: #242323 !important;
@@ -70,7 +66,6 @@ body{
     transition: 0.2s;
     margin: 0 5px;
 }
-
 /* body,html{
 	background: url('images/0428.gif_wh860.gif');
 	background-repeat: no-repeat; 
@@ -132,13 +127,25 @@ hr {
     flex-wrap: wrap;
     /* width: calc(40% - 40px); */
     padding: 80px;
+    justify-content: space-between;
     margin-bottom: 120px;
+}
+
+body > header > nav > ul > li.Join > a {
+    background-color: var(--link-colour);
+    color: var(--main-color);
+    transition: 0.3s;
 }
 
 .hero-text {
     flex-basis: 40%;
     margin-top: 0;
     margin-bottom: 0;
+    /* text-align: left; */
+}
+
+body > div.hero-container > div.hero-text {
+    text-align: left !important;
 }
 
 .hero-text h1 {
@@ -146,7 +153,7 @@ hr {
 }
 
 .hero-image {
-    flex-basis: 60%;
+    flex-basis: 40%;
 }
 
 .hero-image video {
@@ -161,7 +168,6 @@ hr {
 
 h1 {
     font-size: 3.5rem;
-    line-height: 0.5;
 }
 
 #rotate {
@@ -175,7 +181,7 @@ h1 {
     padding: 10px;
     margin-top: 20px;
     border-radius: 5px;
-    background-color: transparent;
+	background-color: transparent;
 }
 
 #rotate {
@@ -218,7 +224,7 @@ footer {
     /* height: 100px; */
     text-align: center;
     /*position:absolute; */
-    /* bottom: 0;
+   /* bottom: 0;
     padding-top: 100px; */
 }
 
@@ -233,6 +239,7 @@ footer {
     /* width: calc(100% - 160px); */
     display: flex;
     padding: 80px;
+    padding-right: 20px;
 }
 
 .section-1,
@@ -250,7 +257,6 @@ footer {
     order: 2;
     /* Change the order of section 2 */
     align-self: center;
-    margin: 0 0 0 150px;
 }
 
 
@@ -403,7 +409,6 @@ footer {
     }
 
     #text-important {
-        display: block;
         margin-top: 20px;
     }
 }
@@ -412,13 +417,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     grid-gap: 40px;
-    margin-top: 200px;
+    justify-content: center;
     margin-bottom: 200px;
 }
 
 .leader {
     flex-basis: 27%;
-    padding-left: 50px;
 }
 
 .leader p {
@@ -532,6 +536,8 @@ h6 {
 
 .main-page-break {
     width: 90%;
+    margin: 0 auto;
+    display: block;
 }
 
 .left-culture {
@@ -549,11 +555,9 @@ h6 {
     justify-content: flex-end;
     float: right;
 }
-
-.right-cultures {
-    float: right;
+.right-cultures{
+    float: right; 
 }
-
 /* .containerse{
 
 } */
@@ -569,7 +573,6 @@ h6 {
     margin-bottom: 20px;
     line-height: 1.8;
 }
-
 .general-containerse {
     display: flex;
     flex-wrap: wrap;
@@ -580,7 +583,6 @@ h6 {
     align-items: center;
     justify-content: space-between;
 }
-
 .general-container {
     display: flex;
     flex-wrap: wrap;
@@ -590,7 +592,7 @@ h6 {
     margin-bottom: 150px;
 }
 
-.general-block {
+.general-block{
     display: block !important;
 }
 
@@ -710,7 +712,7 @@ input[type=submit]:hover {
     margin-top: 0;
     margin-bottom: 20px;
     color: #45a049;
-
+    
 }
 
 .article-list {
@@ -779,7 +781,14 @@ section {
     background-color: #666;
 }
 
-
+@media (max-width:768px) {
+    .news-container {
+        text-align: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
 .news-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -1001,11 +1010,10 @@ section {
         width: 100%;
     }
 
-    .services-box {
+    .services-box{
         width: 39%;
     }
-
-    .services-box h2 {
+    .services-box h2{
         font-size: .9rem;
     }
 }
@@ -1051,9 +1059,7 @@ header {
     transition: 0.2s;
     margin: 0 5px;
 }
-/* #Join a{
-    display:flex !important;
-} */
+
 .nav-bar ul li a:hover {
     color: var(--link-colour);
 }
@@ -1062,35 +1068,29 @@ header {
     background: var(--link-colour);
     color: var(--main-bg-color);
 }
-
-.right-cultures img {
+.right-cultures img{
     width: 100%;
 }
-
 @media only screen and (max-width: 1600px) {
-
     /*header {
         padding: 0 50px;
     }*/
-    .right-cultures img {
+    .right-cultures img{
         width: 400px;
-    }
-
-    .right-cultures {
-        font-size: 32px !important;
-    }
-
+}
+    .right-cultures{
+    font-size: 32px !important;
 }
 
+}
 @media only screen and (max-width: 1320px) {
     header {
         padding: 0 50px;
     }
-
-    .right-cultures {
+    .right-cultures{
         font-size: 32px;
     }
-
+    
 }
 
 @media only screen and (max-width: 1100px) {
@@ -1098,8 +1098,7 @@ header {
         padding: 0 20px;
 
     }
-
-    .right-cultures {
+    .right-cultures{
         font-size: 32px;
     }
 }
@@ -1130,13 +1129,10 @@ header {
     }
 
     .nav-bar.active {
-        background: #0d192d;
-        height: 380px;
+        height: 300px;
         border-bottom: 1px solid var(--);
     }
-    .right-cultures{
-        font-size: 26px !important;
-    }
+
     .nav-bar ul {
         display: block;
         width: fit-content;
@@ -1160,59 +1156,67 @@ header {
 
     }
 }
-
 /* news */
-.articles {
-    height: 65vh;
-}
 
-.article:hover {
-    cursor: pointer;
-    transform: translateY(-15px);
-}
-
-.article .article-a {
-    background-color: transparent;
-}
-
-.article .article-a:hover {
-    background-color: transparent;
-}
-
+	.article:hover{
+		cursor: pointer;
+		transform: translateY(-15px);
+	}
+	.article .article-a{
+		background-color: transparent;
+	}
+	.article .article-a:hover{
+		background-color: transparent;
+	}
 /* abouts */
-.Abouts h2 {
-    font-size: 32px;
-    color: #5EE9C5;
-}
-
-.flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-.aboutimg {
-    width: 45%;
-    height: 120%;
-    box-shadow: 1px 1px 4px 2px #fff;
-    border-radius: 10px;
-}
-
-.imgInfo {
-    width: 45%;
-}
-
-.imgInfo h4 {
-    margin-top: 0;
-    color: #5EE9C5;
-}
-
-.imgInfo p {
-    line-height: 40px;
-}
-
-.Abouts {
-    padding-bottom: 80px;
-}
+.Abouts h2{
+		font-size:32px;
+		color: #5EE9C5;
+	}
+    @media (max-width: 768px){
+        .aboutimg{
+            display: block;
+            width: 45%;
+            height: 120%;
+            box-shadow: 1px 1px 4px 2px #fff;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: space-between;
+        }
+        .imgInfo{
+            width: 45%;
+            margin: 0 auto;
+        }
+    }
+	.flex{
+		display: flex;
+		justify-content: space-between;
+	}
+	.aboutimg{
+		width: 45%;
+		height: 120%;
+		box-shadow: 1px 1px 4px 2px #fff;
+		border-radius: 10px;
+	}
+	.imgInfo{
+		width: 45%;
+        margin-bottom: 50px;
+	}
+	.imgInfo h4{
+		margin-top: 0;
+		color: #5EE9C5;
+	}
+	.imgInfo p{
+		line-height: 40px;
+	}
+    .Abouts{
+        padding-bottom: 80px;
+       }
 
 /*-------------- Footer Styles ------------*/
 
@@ -1226,182 +1230,189 @@ section {
     font-size: 22px;
     font-weight: 700;
     color: #5EE9C5;
+  }
+  
+  .thevisionaries-footer{
+      background: #0D1A2D;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font: bold 16px 'Poppins';
+      padding: 55px 50px;
+  }
+  
+  .thevisionaries-footer .footer-left,
+  .thevisionaries-footer .footer-center,
+  .thevisionaries-footer .footer-right{
+      display: inline-block;
+      vertical-align: top;
+  }
+  
+  
+  .thevisionaries-footer .footer-left{
+      width: 38%;
+  }
+  
+  
+  .thevisionaries-footer h3{
+      color:  #CED7F3;
+      font-size: 32px;
+      margin: 0;
+  }
+
+  .thevisionaries-footer h3 span{
+	color:  #5EE9C5;
 }
-
-.thevisionaries-footer {
-    background: #0D1A2D;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: bold 16px 'Poppins';
-    padding: 55px 50px;
-}
-
-.thevisionaries-footer .footer-left,
-.thevisionaries-footer .footer-center,
-.thevisionaries-footer .footer-right {
-    display: inline-block;
-    vertical-align: top;
-}
-
-
-.thevisionaries-footer .footer-left {
-    width: 38%;
-}
-
-
-.thevisionaries-footer h3 {
-    color: #CED7F3;
-    font-size: 32px;
-    margin: 0;
-}
-
-.thevisionaries-footer h3 span {
-    color: #5EE9C5;
-}
-
-
-.thevisionaries-footer .footer-links {
-    color: #CED7F3;
-    margin: 20px 0 12px;
-    padding: 0;
-}
-
-.thevisionaries-footer .footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    font-weight: 400;
-    text-decoration: none;
-    color: inherit;
-}
-
-.thevisionaries-footer .footer-company-name {
-    color: #CED7F3;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-}
-
-
-.thevisionaries-footer .footer-center {
-    width: 35%;
-}
-
-.thevisionaries-footer .footer-center i {
-    background-color: #33383b;
-    color: #CED7F3;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-    vertical-align: middle;
-
-}
-
-.thevisionaries-footer .footer-center i.fa-envelope {
-    font-size: 17px;
-    line-height: 38px;
-}
-
-.thevisionaries-footer .footer-center p {
-    display: inline-block;
-    color: #CED7F3;
-    font-weight: 400;
-    vertical-align: middle;
-    margin: 0;
-}
-
-.thevisionaries-footer .footer-center p span {
-    display: block;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
-}
-
-.thevisionaries-footer .footer-center p a {
-    color: #5EE9C5;
-    text-decoration: none;
-    ;
-}
-
-.thevisionaries-footer .footer-links a:before {
+  
+  
+  .thevisionaries-footer .footer-links{
+      color:  #CED7F3;
+      margin: 20px 0 12px;
+      padding: 0;
+      margin-bottom: 50px;
+  }
+  
+  .thevisionaries-footer .footer-links a{
+      display:inline-block;
+      line-height: 1.8;
+    font-weight:400;
+      text-decoration: none;
+      color:  inherit;
+  }
+  
+  .thevisionaries-footer .footer-company-name{
+      color:  #CED7F3;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0;
+  }
+  
+  
+  .thevisionaries-footer .footer-center{
+      width: 35%;
+  }
+  
+  .thevisionaries-footer .footer-center i{
+      background-color:  #33383b;
+      color: #CED7F3;
+      font-size: 25px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      margin: 10px 15px;
+      vertical-align: middle;
+      
+  }
+  
+  .thevisionaries-footer .footer-center i.fa-envelope{
+      font-size: 17px;
+      line-height: 38px;
+  }
+  
+  .thevisionaries-footer .footer-center p{
+      display: inline-block;
+      color: #CED7F3;
+    font-weight:400;
+      vertical-align: middle;
+      margin:0;
+  }
+  
+  .thevisionaries-footer .footer-center p span{
+      display:block;
+      font-weight: normal;
+      font-size:14px;
+      line-height:2;
+  }
+  
+  .thevisionaries-footer .footer-center p a{
+      color:  #5EE9C5;
+      text-decoration: none;;
+  }
+  
+  .thevisionaries-footer .footer-links a:before {
     content: "|";
-    font-weight: 300;
+    font-weight:300;
     font-size: 20px;
     left: 0;
-    color: #CED7F3;
+    color:#CED7F3;
     display: inline-block;
     padding-right: 5px;
-}
-
-.thevisionaries-footer .footer-links .link-1:before {
+  }
+  
+  .thevisionaries-footer .footer-links .link-1:before {
     content: none;
-}
+  }
+  
+  
+  .thevisionaries-footer .footer-right{
+      width: 20%;
+  }
+  
+  .thevisionaries-footer.footer-company-about{
+      line-height: 20px;
+      color:  #92999f;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+  }
+  
+  .thevisionaries-footer .footer-company-about span{
+      display: block;
+      color:  #f5f5f7;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+  
+  .thevisionaries-footer .footer-icons{
+      margin-top: 25px;
+  }
+  
+  .thevisionaries-footer .footer-icons a{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      background-color:  #33383b;
+      border-radius: 2px;
+  
+      font-size: 20px;
+      color: #CED7F3;
+      text-align: center;
+      line-height: 35px;
+  
+      margin-right: 3px;
+      margin-bottom: 5px;
+  }
+  
+  
+  @media (max-width: 880px) {
+  
+      .thevisionaries-footer{
+          font: bold 14px sans-serif;
+      }
+  
+      .thevisionaries-footer .footer-left,
+      .thevisionaries-footer .footer-center,
+      .thevisionaries-footer .footer-right{
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          text-align: center;
+      }
+  
+      .thevisionaries-footer .footer-center i{
+          margin-left: 0;
+      }
+  
+  }
 
-
-.thevisionaries-footer .footer-right {
-    width: 20%;
-}
-
-.thevisionaries-footer.footer-company-about {
-    line-height: 20px;
-    color: #92999f;
-    font-size: 13px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.thevisionaries-footer .footer-company-about span {
-    display: block;
-    color: #f5f5f7;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.thevisionaries-footer .footer-icons {
-    margin-top: 25px;
-}
-
-.thevisionaries-footer .footer-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color: #33383b;
-    border-radius: 2px;
-
-    font-size: 20px;
-    color: #CED7F3;
-    text-align: center;
-    line-height: 35px;
-
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-
-
-@media (max-width: 880px) {
-
-    .thevisionaries-footer {
-        font: bold 14px sans-serif;
+    /* @media (min-width: 768px){
+        #text-important{
+            display: none;
+        }
     }
-
-    .thevisionaries-footer .footer-left,
-    .thevisionaries-footer .footer-center,
-    .thevisionaries-footer .footer-right {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-
-    .thevisionaries-footer .footer-center i {
-        margin-left: 0;
-    }
-
-}
+     */
