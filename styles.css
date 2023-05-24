@@ -145,7 +145,7 @@ body > header > nav > ul > li.Join > a {
 }
 
 body > div.hero-container > div.hero-text {
-    text-align: left;
+    text-align: left !important;
 }
 
 .hero-text h1 {
