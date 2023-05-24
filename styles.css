@@ -1180,7 +1180,7 @@ header {
     }
 
     .nav-bar.active {
-        height: 300px;
+        height: 400px;
         border-bottom: 1px solid var(--);
     }
 
@@ -1227,11 +1227,7 @@ header {
 .Abouts h2 {
     font-size: 32px;
     color: #5EE9C5;
-    margin-bottom: 30px;
-    margin-top: 100px;
 }
-
-
 
 @media (max-width: 768px) {
     .aboutimg {
