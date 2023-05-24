@@ -1180,7 +1180,7 @@ header {
     }
 
     .nav-bar.active {
-        height: 400px;
+        height: 300px;
         border-bottom: 1px solid var(--);
     }
 
@@ -1227,7 +1227,24 @@ header {
 .Abouts h2 {
     font-size: 32px;
     color: #5EE9C5;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
+
+
+
+
+.Abouts p{
+    margin-top: 50px;
+    
+}
+
+.Abouts h2 p{
+    text-align: right;
+}
+
+ 
+
 
 @media (max-width: 768px) {
     .aboutimg {
@@ -1237,6 +1254,7 @@ header {
         box-shadow: 1px 1px 4px 2px #fff;
         border-radius: 10px;
         margin: 0 auto;
+        
     }
 
     .flex {
@@ -1262,25 +1280,32 @@ header {
     height: 120%;
     box-shadow: 1px 1px 4px 2px #fff;
     border-radius: 10px;
+    margin-top: 0px;
+    
 }
 
 .imgInfo {
     width: 45%;
     margin-bottom: 50px;
+    
 }
 
 .imgInfo h4 {
     margin-top: 0;
     color: #5EE9C5;
+    
 }
 
 .imgInfo p {
     line-height: 40px;
+    
 }
 
 .Abouts {
     padding-bottom: 80px;
 }
+
+
 
 /*-------------- Footer Styles ------------*/
 
