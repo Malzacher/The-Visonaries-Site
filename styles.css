@@ -156,6 +156,11 @@ body > div.hero-container > div.hero-text {
     flex-basis: 40%;
 }
 
+.hero-image video {
+    height: 100%;
+    float: right;
+}
+
 .hero-image img {
     height: 100%;
     float: right;
