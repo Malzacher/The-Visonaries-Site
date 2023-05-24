@@ -163,7 +163,15 @@ body>div.hero-container>div.hero-text {
     flex-basis: 40%;
 }
 
-.hero-image video {
+.hero-image2 {
+    flex-basis: 40%;
+    width: 100%;
+    top: -10vh; 
+    pointer-events: none;
+    z-index:1;
+}
+
+.hero-image2 video {
     height: 100%;
     float: right;
 }
