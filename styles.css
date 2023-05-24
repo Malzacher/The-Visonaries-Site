@@ -1411,3 +1411,7 @@ section {
         }
     }
      */
+
+     body > div.aboutus-container.aos-init.aos-animate > div.section-2 > h1 {
+        text-align: right;
+     }
