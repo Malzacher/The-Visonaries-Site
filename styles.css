@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Roboto+Mono&display=swap');
-
 :root {
     --main-color: #CED7F3;
     --main-bg-color: #0d192d;
@@ -73,12 +72,15 @@
     margin: 0 5px;
 }
 
+
 /* body,html{
 	background: url('images/0428.gif_wh860.gif');
 	background-repeat: no-repeat; 
 	background-size: 100% 100%; 
 	
 } */
+
+
 /* body {
     width: 100%;
 }
@@ -93,19 +95,23 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
+
 /* .container {
     overflow: auto;
 
 } */
+
 
 /* nav {
     float: right;
     margin-right: 30px;
 } */
 
+
 /* .logo {
     margin: auto;
 } */
+
 
 /* li {
     font-weight: 600;
@@ -166,9 +172,9 @@ body>div.hero-container>div.hero-text {
 .hero-image2 {
     flex-basis: 40%;
     width: 100%;
-    top: -10vh; 
+    top: -10vh;
     pointer-events: none;
-    z-index:1;
+    z-index: 1;
 }
 
 .hero-image2 video {
@@ -176,8 +182,7 @@ body>div.hero-container>div.hero-text {
     width: 100%;
     float: right;
     flex-basis: 40%;
-    top: -10vh; 
-    
+    top: -10vh;
 }
 
 .hero-image img {
@@ -213,28 +218,24 @@ h1 {
 }
 
 @media (max-width: 900px) {
-
     body {
         min-width: 100%;
     }
-
     .hero-image {
         display: none;
     }
-
     .hero-container {
         flex-direction: column;
         align-items: center;
     }
-
     .hero-text {
         flex-basis: 100%;
     }
-
     /* .logo {
         display: none;
     } */
 }
+
 
 /* ---------------------------------------------------------------------- */
 
@@ -247,9 +248,12 @@ footer {
     padding-top: 100px; */
 }
 
+
 /* ---------------------------------------------------------------------- */
 
+
 /* About Us CSS*/
+
 .clear {
     clear: both;
 }
@@ -278,7 +282,6 @@ footer {
     align-self: center;
 }
 
-
 .section-2 h1 {
     line-height: 1.2;
     /* adjust to your preference */
@@ -294,7 +297,9 @@ footer {
     color: #646971;
 }
 
+
 /* For screens smaller than 768px */
+
 @media (max-width: 768px) {
     .aboutus-container {
         flex-direction: column;
@@ -302,34 +307,33 @@ footer {
         margin-top: 100px;
         margin-bottom: 100px;
     }
-
     .section-1,
     .section-2 {
         flex-basis: calc(100% - 80px);
         margin-left: auto;
     }
-
     .section-1 {
         order: 2;
     }
-
     .section-2 {
         order: 1;
     }
 }
 
+
 /* For screens larger than 768px */
+
 @media (min-width: 768px) {
     .section-2 {
         margin-top: 120px;
         padding: 80px;
         margin-bottom: 120px;
     }
-
     .section-1 {
         margin-top: 20px;
     }
 }
+
 
 /* About Us CSS*/
 
@@ -365,8 +369,8 @@ footer {
     /* adjust to your preference */
     font-weight: 700;
     text-align: center;
-	margin-top: auto;
-	    font-size: 80px;
+    margin-top: auto;
+    font-size: 80px;
 }
 
 .right {
@@ -398,6 +402,7 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
     margin-bottom: 5px;
     margin-top: 5px;
 }
+
 
 /*leadership*/
 
@@ -432,18 +437,15 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
 .leadership-container h1 {
     text-align: right;
     padding: 20px;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-
-
 
 @media only screen and (max-width: 768px) {
     .leadership-container h1 {
         text-align: center;
         white-space: nowrap;
     }
-
     #text-important {
         margin-top: 20px;
     }
@@ -454,7 +456,8 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
     flex-wrap: wrap;
     grid-gap: 40px;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+    margin-right: -50px;
 }
 
 .leader {
@@ -471,13 +474,14 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
     font-weight: 500;
 }
 
+
 /*Adapt the Service section to the small screen */
+
 @media (max-width:923px) {
     .content .right {
         flex-basis: 50%;
         width: 50%;
     }
-
     .content .box {
         width: 100%;
     }
@@ -489,7 +493,6 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
         width: 100%;
         height: auto;
     }
-
     .content .right {
         flex-basis: 100%;
         width: 100%;
@@ -498,8 +501,9 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
 
 
 /* ---------------------------------------------------------------------- */
-/* Our team Page  */
 
+
+/* Our team Page  */
 
 .page-container {
     display: flex;
@@ -596,9 +600,11 @@ h6 {
     float: right;
 }
 
+
 /* .containerse{
 
 } */
+
 .right-culture img {
     width: 300px;
     height: 300px;
@@ -714,35 +720,28 @@ input[type=submit]:hover {
         flex: 1 1 100%;
         margin-bottom: 10px;
     }
-
     #team-container img {
         border: 1px solid var(--link-colour);
-
     }
-
     .general-container {
         flex-direction: column;
     }
-
     .left-culture {
         flex-basis: 100%;
         margin-bottom: 20px;
-
     }
-
     .right-culture {
         justify-content: center;
     }
-
     .right-culture img {
         width: 250px;
         height: 250px;
     }
-
 }
 
 
 /* Styles for the news section */
+
 .news {
     background-color: #f0f0f0;
     padding: 20px;
@@ -752,7 +751,6 @@ input[type=submit]:hover {
     margin-top: 0;
     margin-bottom: 20px;
     color: #45a049;
-
 }
 
 .article-list {
@@ -760,8 +758,6 @@ input[type=submit]:hover {
     justify-content: space-between;
     /* flex-wrap: wrap; */
 }
-
-
 
 .article img {
     width: 100%;
@@ -793,9 +789,8 @@ section {
 }
 
 
-
-
 /* Styles for the featured article section */
+
 .featured img {
     width: 100%;
 }
@@ -838,6 +833,7 @@ section {
 
 
 /*Adapt the Service section to the small screen */
+
 @media (max-width:768px) {
     .article-list {
         display: flex;
@@ -845,18 +841,15 @@ section {
         flex-direction: column;
         width: 100%;
     }
-
     .article-list .article {
         margin-bottom: 20px;
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-
     .article-list .article a {
         text-align: center;
     }
-
     .btn {
         width: 100%;
         text-align: center;
@@ -868,18 +861,15 @@ section {
         display: flex;
         flex-wrap: wrap;
     }
-
     .article-list .article {
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
         width: 48%;
     }
-
     .article-list .article a {
         text-align: center;
     }
-
     .btn {
         width: 100%;
         text-align: center;
@@ -887,7 +877,6 @@ section {
 }
 
 @media (min-width:923px) {
-
     .article-list .article {
         max-width: 300px;
     }
@@ -926,8 +915,8 @@ section {
 }
 
 .new-container .left-image-section {
-    flex-basis: 60% !important; 
-    margin-bottom: 180px;  
+    flex-basis: 60% !important;
+    margin-bottom: 180px;
 }
 
 .box-content {
@@ -976,7 +965,7 @@ section {
 .portfolio-box h2 {
     font-size: 1.2rem;
     color: --link-colour;
-    margin:10px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .portfolio-img {
@@ -990,7 +979,9 @@ section {
     width: 100%;
 }
 
+
 /*------------------Services Styles------------------------*/
+
 .services-box {
     width: 45%;
     /* border:3px solid var(--link-colour); */
@@ -999,17 +990,18 @@ section {
     overflow: hidden;
 }
 
-.services-box h2{
+.services-box h2 {
     margin: 10px 0 0 0;
     font-size: 1.5rem;
 }
 
+
 /* =============== PORTFOLIO RESPONSIVE ================ */
+
 @media (max-width:560px) {
     .new-container .left-image-section {
         flex-basis: auto;
     }
-
     .box-content {
         margin: 0;
         width: 100%;
@@ -1017,51 +1009,40 @@ section {
         position: relative;
         display: block;
     }
-
     .box-content h2 {
         padding: 0 0 0 10px;
     }
-
     .box-content h1 {
         padding: 0 0 0 10px;
         line-height: 30px;
     }
-
     .box-content p {
         padding: 0 10px 0 10px;
     }
-
     .portfolio-box {
         width: 41%;
         display: inline-block;
         margin: 0 10px;
         overflow: hidden;
     }
-
     .portfolio-img {
         height: 80px;
     }
-
     .portfolio-box h2 {
         font-size: 0.9rem;
     }
-
     #large-title {
         line-height: 32px;
     }
-
     .left-image-section {
         margin: 0 0 20px 0;
     }
-
     .left-image-section img {
         width: 100%;
     }
-
     .services-box {
         width: 39%;
     }
-
     .services-box h2 {
         font-size: .9rem;
     }
@@ -1088,7 +1069,6 @@ header {
 
 .logo img {
     width: 200px;
-
 }
 
 .hamburger {
@@ -1123,37 +1103,30 @@ header {
 }
 
 @media only screen and (max-width: 1600px) {
-
     /*header {
         padding: 0 50px;
     }*/
     .right-cultures img {
         width: 400px;
     }
-
     .right-cultures {
         font-size: 32px !important;
     }
-
 }
 
 @media only screen and (max-width: 1320px) {
     header {
         padding: 0 50px;
     }
-
     .right-cultures {
         font-size: 32px;
     }
-
 }
 
 @media only screen and (max-width: 1100px) {
     header {
         padding: 0 20px;
-
     }
-
     .right-cultures {
         font-size: 32px;
     }
@@ -1164,7 +1137,6 @@ header {
         display: block;
         cursor: pointer;
     }
-
     .hamburger .line {
         width: 30px;
         height: 3px;
@@ -1172,7 +1144,6 @@ header {
         background: var(--main-color);
         margin-right: 5px;
     }
-
     .nav-bar {
         height: 0;
         position: absolute;
@@ -1183,12 +1154,10 @@ header {
         transition: 0.3s;
         overflow: hidden;
     }
-
     .nav-bar.active {
         height: 300px;
         border-bottom: 1px solid var(--);
     }
-
     .nav-bar ul {
         display: block;
         width: fit-content;
@@ -1197,21 +1166,18 @@ header {
         transition: 0.5s;
         opacity: 0;
     }
-
     .nav-bar.active ul {
         opacity: 1;
         color: var(--main-color);
     }
-
     #nav-hr {
         display: none;
     }
-
     .nav-bar ul li a {
         margin-bottom: 12px;
-
     }
 }
+
 
 /* news */
 
@@ -1228,7 +1194,9 @@ header {
     background-color: transparent;
 }
 
+
 /* abouts */
+
 .Abouts h2 {
     font-size: 32px;
     color: #5EE9C5;
@@ -1236,20 +1204,13 @@ header {
     margin-top: 100px;
 }
 
-
-
-
-.Abouts p{
+.Abouts p {
     margin-top: 50px;
-    
 }
 
-.Abouts h2 p{
+.Abouts h2 p {
     text-align: right;
 }
-
- 
-
 
 @media (max-width: 768px) {
     .aboutimg {
@@ -1259,16 +1220,12 @@ header {
         box-shadow: 1px 1px 4px 2px #fff;
         border-radius: 10px;
         margin: 0 auto;
-        
     }
-
     .flex {
         display: flex;
         flex-direction: column;
-
         justify-content: space-between;
     }
-
     .imgInfo {
         width: 45%;
         margin: 0 auto;
@@ -1286,24 +1243,20 @@ header {
     box-shadow: 1px 1px 4px 2px #fff;
     border-radius: 10px;
     margin-top: 0px;
-    
 }
 
 .imgInfo {
     width: 45%;
     margin-bottom: 50px;
-    
 }
 
 .imgInfo h4 {
     margin-top: 0;
     color: #5EE9C5;
-    
 }
 
 .imgInfo p {
     line-height: 40px;
-    
 }
 
 .Abouts {
@@ -1311,9 +1264,7 @@ header {
 }
 
 
-
 /*-------------- Footer Styles ------------*/
-
 
 section {
     width: 100%;
@@ -1343,11 +1294,9 @@ section {
     vertical-align: top;
 }
 
-
 .thevisionaries-footer .footer-left {
     width: 38%;
 }
-
 
 .thevisionaries-footer h3 {
     color: #CED7F3;
@@ -1358,7 +1307,6 @@ section {
 .thevisionaries-footer h3 span {
     color: #5EE9C5;
 }
-
 
 .thevisionaries-footer .footer-links {
     color: #CED7F3;
@@ -1382,7 +1330,6 @@ section {
     margin: 0;
 }
 
-
 .thevisionaries-footer .footer-center {
     width: 35%;
 }
@@ -1398,7 +1345,6 @@ section {
     line-height: 42px;
     margin: 10px 15px;
     vertical-align: middle;
-
 }
 
 .thevisionaries-footer .footer-center i.fa-envelope {
@@ -1441,7 +1387,6 @@ section {
     content: none;
 }
 
-
 .thevisionaries-footer .footer-right {
     width: 20%;
 }
@@ -1473,23 +1418,18 @@ section {
     cursor: pointer;
     background-color: #33383b;
     border-radius: 2px;
-
     font-size: 20px;
     color: #CED7F3;
     text-align: center;
     line-height: 35px;
-
     margin-right: 3px;
     margin-bottom: 5px;
 }
 
-
 @media (max-width: 880px) {
-
     .thevisionaries-footer {
         font: bold 14px sans-serif;
     }
-
     .thevisionaries-footer .footer-left,
     .thevisionaries-footer .footer-center,
     .thevisionaries-footer .footer-right {
@@ -1498,12 +1438,11 @@ section {
         margin-bottom: 40px;
         text-align: center;
     }
-
     .thevisionaries-footer .footer-center i {
         margin-left: 0;
     }
-
 }
+
 
 /* @media (min-width: 768px){
         #text-important{
