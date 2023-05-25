@@ -173,7 +173,11 @@ body>div.hero-container>div.hero-text {
 
 .hero-image2 video {
     height: 100%;
+    width: 100%;
     float: right;
+    flex-basis: 40%;
+    top: -10vh; 
+    
 }
 
 .hero-image img {
