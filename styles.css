@@ -364,8 +364,9 @@ footer {
     line-height: 1.2;
     /* adjust to your preference */
     font-weight: 700;
-    font-size: 50px;
     text-align: center;
+	margin-top: auto;
+	    font-size: 80px;
 }
 
 .right {
