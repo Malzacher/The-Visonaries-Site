@@ -555,6 +555,7 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
 
 #team-container img {
     width: 100%;
+    height: auto;
 }
 
 h6 {
