@@ -5,8 +5,6 @@
     --link-colour: #5EE9C5;
 }
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -199,6 +197,8 @@ h1 {
 #rotate {
     color: var(--link-colour);
     margin-top: 0;
+    display: block;
+    margin-bottom: 5px;
 }
 
 #learn-more {
@@ -242,7 +242,8 @@ h1 {
 /* ---------------------------------------------------------------------- */
 
 footer {
-    width: 100%;
+
+    margin-left: ;
     /* height: 100px; */
     text-align: center;
     /*position:absolute; */
@@ -306,7 +307,7 @@ footer {
 
 /* For screens smaller than 768px */
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .aboutus-container {
         flex-direction: column;
         /* Change the flex-direction */
@@ -320,9 +321,16 @@ footer {
     }
     .section-1 {
         order: 2;
+        margin-bottom: 100px;
+        margin-top: 50px;
     }
     .section-2 {
         order: 1;
+        padding: 0;
+        margin-bottom: 0 !important;
+    }
+    body > div.aboutus-container.aos-init.aos-animate > div.section-2 > h1 {
+        text-align: left !important;
     }
 }
 
@@ -332,9 +340,10 @@ footer {
 @media (min-width: 768px) {
     .section-2 {
         margin-top: 120px;
-        padding: 80px;
+        padding: 0px;
         margin-bottom: 120px;
     }
+    
     .section-1 {
         margin-top: 20px;
     }
@@ -390,6 +399,7 @@ footer {
     border-radius: 5px;
     padding: 5px 20px;
     cursor: pointer;
+    align-content: left;
 }
 
 .right .box {
@@ -402,6 +412,7 @@ footer {
 
 body>div.content.aos-init.aos-animate>div.right>div>p {
     margin-bottom: 15px;
+    line-height: 1.8;
 }
 
 body>div.content.aos-init.aos-animate>div.right>div>p.title {
@@ -520,12 +531,15 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
 }
 
 #team-container {
-    flex-basis: calc(100% / 3);
-    /* set the width of each team-container to 1/3 of the screen */
+    flex-basis: calc((100% / 3) - 40px);
     box-sizing: border-box;
-    /* include padding and border in the width calculation */
-    padding: 20px;
     margin-bottom: 200px;
+}
+
+.middle {
+    flex-basis: calc(33.33%) ;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 #small-title,
@@ -536,8 +550,12 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
     margin-top: 0;
 }
 
+.title-container {
+    flex-basis: 100%;
+}
+
 #small-title {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 #small-title {
@@ -551,6 +569,7 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
 
 #team-container img {
     width: 100%;
+    height:auto;
 }
 
 h6 {
@@ -574,6 +593,7 @@ h6 {
 #team-container p {
     font-size: 14px;
     margin-bottom: 20px;
+    line-height: 1.6;
 }
 
 .page-break {
@@ -621,7 +641,7 @@ h6 {
 .left-culture p {
     font-size: 14px;
     margin-bottom: 20px;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 .general-containerse {
@@ -721,10 +741,15 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+
+
 @media (max-width:900px) {
     #team-container {
         flex: 1 1 100%;
         margin-bottom: 10px;
+        max-width: 450px;
+        display: block;
+        margin: 0 auto; 
     }
     #team-container img {
         border: 1px solid var(--link-colour);
@@ -742,6 +767,15 @@ input[type=submit]:hover {
     .right-culture img {
         width: 250px;
         height: 250px;
+    }
+}
+
+@media (max-width:900px) {
+    .box > p, .right .box, .left h1 {
+        text-align: left;
+    }
+    body > div.aboutus-container > div.section-2 > h1{
+        text-align: left !important;
     }
 }
 
@@ -1291,6 +1325,8 @@ section {
     text-align: left;
     font: bold 16px 'Poppins';
     padding: 55px 50px;
+    display: block;
+    margin: 0 auto;
 }
 
 .thevisionaries-footer .footer-left,
@@ -1364,6 +1400,10 @@ section {
     font-weight: 400;
     vertical-align: middle;
     margin: 0;
+}
+
+body > footer > div.footer-left > p.footer-links > a {
+    font-size: 14px;
 }
 
 .thevisionaries-footer .footer-center p span {
@@ -1447,6 +1487,9 @@ section {
     .thevisionaries-footer .footer-center i {
         margin-left: 0;
     }
+    .footer-center, .footer-right {
+        display: none !important;
+    }
 }
 
 
@@ -1463,5 +1506,24 @@ body>div.aboutus-container.aos-init.aos-animate>div.section-2>h1 {
 
 .complete-container {
     max-width: 100%;
+}   
+
+@media (max-width: 1000px) {
+    .footer-center {
+        display: none;
+    }
 }
 
+#learn-more:hover, body > div.content.aos-init.aos-animate > div.right > div > a > button:hover {
+    background-color: #5EE9C5;
+    color: #0D1A2D;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+body > header > nav > ul > li.Join:hover, body > header > nav > ul > li.Join > a:hover {
+    background-color: #ffffff;
+    color: #0D1A2D;
+    transition: 0.5s;
+    cursor: pointer;
+}
