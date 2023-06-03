@@ -262,12 +262,16 @@ footer {
     /* width: calc(100% - 160px); */
     display: flex;
     padding: 80px;
-    padding-right: 20px;
+}
+
+.aboutus-container h1 {
+    padding: 0;
 }
 
 .section-1,
 .section-2 {
     flex-basis: 50%;
+    margin: 0;
 }
 
 .section-1 {
@@ -358,6 +362,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .title {
@@ -369,7 +374,6 @@ footer {
     /* adjust to your preference */
     font-weight: 700;
     text-align: center;
-    margin-top: auto;
     font-size: 50px;
 }
 
@@ -455,7 +459,7 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
     display: flex;
     flex-wrap: wrap;
     grid-gap: 40px;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 150px;
     margin-right: -50px;
 }
@@ -498,7 +502,7 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
         width: 100%;
     }
 }
-
+/Users/nickmalzacher/Library/CloudStorage/OneDrive-RMITUniversity/Programming Project 1/A1/the-visionaries/The-Visonaries-Site/images/johndoe.avif
 
 /* ---------------------------------------------------------------------- */
 
@@ -1454,3 +1458,8 @@ section {
 body>div.aboutus-container.aos-init.aos-animate>div.section-2>h1 {
     text-align: right;
 }
+
+.complete-container {
+    max-width: 100%;
+}
+
