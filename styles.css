@@ -555,7 +555,7 @@ body>div.content.aos-init.aos-animate>div.right>div>p.title {
 
 #team-container img {
     width: 100%;
-    height: auto;
+    height:auto;
 }
 
 h6 {
@@ -1181,8 +1181,9 @@ header {
         overflow: hidden;
     }
     .nav-bar.active {
-        height: 300px;
-        border-bottom: 1px solid var(--);
+        height: 350px;
+        border-bottom: 2px solid #2f2f2f;
+       
     }
     .nav-bar ul {
         display: block;
