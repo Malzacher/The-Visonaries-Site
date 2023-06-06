@@ -714,6 +714,10 @@ textarea {
     resize: vertical;
 }
 
+form > label {
+    font-weight: 600;
+}
+
 input[type=submit] {
     background-color: var(--link-colour);
     color: white;
