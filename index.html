@@ -25,9 +25,9 @@
             <a href="index.html"><img src="images/the-visionaries-startup-studio.jpeg" alt=""></a>
         </div>
         <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+            <div class="line"></div> <!-- Line 1 of hamburger menu icon -->
+            <div class="line"></div> <!-- Line 2 of hamburger menu icon -->
+            <div class="line"></div> <!-- Line 3 of hamburger menu icon -->
         </div>
         <nav class="nav-bar">
             <ul>
@@ -45,7 +45,7 @@
                 </li>
                 <!-- <li>
                     <a href="pages/podcast.html">Podcast</a>
-                </li> -->
+                </li> --> <!-- Commented out the podcast link -->
                 <li>
                     <a href="pages/ourteam.html">Team</a>
                 </li>
@@ -59,15 +59,13 @@
         hamburger = document.querySelector(".hamburger");
         nav = document.querySelector("nav");
         hamburger.onclick = function () {
-            nav.classList.toggle("active");
+            nav.classList.toggle("active"); <!-- Toggle the "active" class when hamburger menu is clicked -->
         }
     </script>
 
+    <hr id="nav-hr"> <!-- Horizontal line element -->
 
-
-    <hr id="nav-hr">
-
-    <div class="hero-container" data-aos="fade-in">
+    <div class="hero-container" data-aos="fade-in"> <!-- Container for the hero section -->
         <div class="hero-text">
             <h1>Let Your business <span id="rotate"></span></h1>
             <p>We aim to cater to our startups’ individual goals and aspirations as we deliver customized plans,
@@ -76,14 +74,15 @@
         </div>
         <div class="hero-image2">
             <video loop="true" autoplay="autoplay" muted width="520" height="400">
-                <source src="media/Cube.mp4" type="video/mp4" alt="hero-image">
+                <source src="media/Cube.mp4" type="video/mp4" alt="hero-image"> <!-- Video source for the hero image -->
             </video>
         </div>
     </div>
 
+
     <hr class="main-page-break">
 
-    <div class="aboutus-container" data-aos="fade-in">
+    <div class="aboutus-container" data-aos="fade-in"> <!-- Container for the "About Us" section -->
         <div class="section-1">
             <p id="colour">About:</p>
             <p>
@@ -101,23 +100,22 @@
             </p>
             <p>
                 We aim to cater to our startups' individual goals and aspirations as we deliver customized plans,
-                training, and consultancy services to reach their fullest potential as they troubleshoot t heir way
+                training, and consultancy services to reach their fullest potential as they troubleshoot their way
                 into successful and proactive endeavors.
             </p>
         </div>
         <div class="section-2">
             <h1>We have helped <span id="text-important">hundreds</span> of businesses <span id="text-important">reach
-                    success</span></h1>
+                    success</span></h1> <!-- Heading highlighting the success of the business -->
         </div>
     </div>
 
-    <hr class="main-page-break">
+    <hr class="main-page-break"> <!-- Horizontal line element -->
 
-    <div class="content" data-aos="fade-in">
+    <div class="content" data-aos="fade-in"> <!-- Container for the content section -->
         <div class="left">
             <h1>What services can we offer <span id="text-important">you</span> and <span id="text-important">your
-                </span>business?</h1>
-
+                </span>business?</h1> <!-- Heading introducing the services offered -->
         </div>
         <div class="right">
             <div class="box">
@@ -158,68 +156,38 @@
 
     <hr class="main-page-break">
 
-    <div class="page-container" data-aos="fade-in">
-
+    <div class="page-container" data-aos="fade-in"> <!-- Container for the page content -->
         <div class="title-container">
-            <h2 id="small-title"> Who are we? </h2>
-            <h1 id="large-title">Meet out Team</h1>
+            <h2 id="small-title">Who are we?</h2> <!-- Subtitle -->
+            <h1 id="large-title">Meet our Team</h1> <!-- Main title -->
         </div>
 
-        <div id="team-container" data-aos="fade-in">
-            <img src="../images/peter.jpeg" alt="">
-            <h6 id="text-important" class="bold">Peter Yassopoulos </h6>
-            <h6>Founder and Owner</h6>
+        <div id="team-container" data-aos="fade-in"> <!-- Container for the team member -->
+            <img src="images/peter.jpeg" alt=""> <!-- Team member's image -->
+            <h6 id="text-important" class="bold">Peter Yassopoulos</h6> <!-- Team member's name -->
+            <h6>Founder and Owner</h6> <!-- Team member's role -->
             <p>A founder is the visionary behind a company,
                 conceiving its core idea and establishing its early framework.
                 An owner holds legal and financial control, taking responsibility
-                for the organization's success, growth, and strategic direction.</p>
+                for the organization's success, growth, and strategic direction.</p> <!-- Team member's description -->
         </div>
-        <div id="team-container" class="middle">
-            <img src="../images/laura.jpg" alt="">
-            <h6 id="text-important">Laura Prendergeist </h6>
-            <h6>Founder and Owner</h6>
+        <div id="team-container" class="middle"> <!-- Container for the team member -->
+            <img src="images/laura.jpg" alt=""> <!-- Team member's image -->
+            <h6 id="text-important">Laura Prendergeist</h6> <!-- Team member's name -->
+            <h6>Founder and Owner</h6> <!-- Team member's role -->
             <p>Co-founders are entrepreneurial,
                 innovative risk-takers driven by passion.
                 They collaborate, lead with vision, solve problems creatively,
-                and achieve results through determination and empowerment</p>
+                and achieve results through determination and empowerment</p> <!-- Team member's description -->
         </div>
-        <div id="team-container">
-            <img src="../images/peter.jpeg" alt="">
-            <h6 id="text-important">Peter Yassopoulos </h6>
-            <h6>Founder and Owner</h6>
+        <div id="team-container"> <!-- Container for the team member -->
+            <img src="images/peter.jpeg" alt=""> <!-- Team member's image -->
+            <h6 id="text-important">Peter Yassopoulos</h6> <!-- Team member's name -->
+            <h6>Founder and Owner</h6> <!-- Team member's role -->
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis sit amet auctor justo, quis pretium tellus.
-                Morbi condimentum ligula mi, eget vehicula eros efficitur </p>
+                Morbi condimentum ligula mi, eget vehicula eros efficitur</p> <!-- Team member's description -->
         </div>
     </div>
-
-    <hr class="main-page-break">
-
-    <!-- <div class="leader">
-    <img src="image.jpg" alt="" width="300" height="300">
-    <h6 id="intro1">Peter Yassopoulos </h6>
-    <h7>Founder</h7>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis sit amet auctor justo, quis pretium tellus.
-      Morbi condimentum ligula mi, eget vehicula eros efficitur </p>
-
-  </div>
-
-  <div class="leader">
-    <img src="image.jpg" alt="" width="300" height="300">
-    <h6 id="intro2">Peter Yassopoulos </h6>
-    <h7>Founder</h7>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis sit amet auctor justo, quis pretium tellus.
-      Morbi condimentum ligula mi, eget vehicula eros efficitur </p>
-  </div>
-
-  <div class="leader">
-    <img src="image.jpg" alt="" width="300" height="300">
-    <h6 id="intro3">Peter Yassopoulos</h6>
-    <h7>Founder</h7>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis sit amet auctor justo, quis pretium tellus.
-      Morbi condimentum ligula mi, eget vehicula eros efficitur </p>
-  </div>
-  </div>
-
 
   </div>
   <hr style="margin-bottom: 50px"> -->
