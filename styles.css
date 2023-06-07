@@ -952,7 +952,7 @@ section {
 .box-content {
     margin: 0;
     background: var(--main-color);
-    width: 500px;
+    width: 620px;
     position: absolute;
     right: 0;
     top: 50%;
@@ -988,8 +988,9 @@ section {
     width: 30%;
     /* border:3px solid var(--link-colour); */
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 34px 0 0;
     overflow: hidden;
+    text-align: center;
 }
 
 .portfolio-box h2 {
@@ -1016,8 +1017,17 @@ section {
     width: 45%;
     /* border:3px solid var(--link-colour); */
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 47.888px 20px 0;
     overflow: hidden;
+    text-align: center;
+}
+
+.services-box:hover > a .portfolio-img img{
+    transform: scale(1.5);
+}
+
+.services-box:hover > a h3{
+    color: var(--link-colour);
 }
 
 .services-box h2 {
@@ -1056,7 +1066,7 @@ section {
         overflow: hidden;
     }
     .portfolio-img {
-        height: 80px;
+        height: 190px;
     }
     .portfolio-box h2 {
         font-size: 0.9rem;
@@ -1071,10 +1081,19 @@ section {
         width: 100%;
     }
     .services-box {
-        width: 39%;
+        width: 100%;
     }
     .services-box h2 {
         font-size: .9rem;
+    }
+    .general-container{
+        margin-top: 20px;
+    }
+    .new-container .left-image-section{
+        margin-bottom: 20px;
+    }
+    .mt-20{
+        margin-top: 60px;
     }
 }
 
@@ -1183,9 +1202,10 @@ header {
         width: 100%;
         transition: 0.3s;
         overflow: hidden;
+        z-index: 99;
     }
     .nav-bar.active {
-        height: 350px;
+        height: 390px;
         border-bottom: 2px solid #2f2f2f;
     }
     .nav-bar ul {
@@ -1306,7 +1326,9 @@ section {
     font-weight: 700;
     color: #5EE9C5;
 }
-
+.text-left{
+    text-align: left !important;
+}
 .thevisionaries-footer {
     background: #0D1A2D;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
