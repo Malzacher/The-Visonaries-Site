@@ -12,11 +12,13 @@
   <link rel="stylesheet" href="../styles.css" />
   <script src="js/scripts.js"></script>
   <meta title="The Visionaries - Venture Capital" />
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
 </head>
 
 <body>
   <header>
     <div class="logo">
+      <!-- Logo image with a link to the homepage -->
       <a href="../index.html"><img src="../images/the-visionaries-startup-studio.jpeg" alt="" /></a>
     </div>
     <div class="hamburger">
@@ -26,6 +28,7 @@
     </div>
     <nav class="nav-bar">
       <ul>
+        <!-- Navigation links -->
         <li>
           <a href="aboutus.html">About us</a>
         </li>
@@ -51,6 +54,7 @@
     </nav>
   </header>
   <script>
+    // Hamburger menu functionality
     hamburger = document.querySelector(".hamburger");
     nav = document.querySelector("nav");
     hamburger.onclick = function () {
@@ -62,6 +66,7 @@
 
   <div class="general-container position-relative new-container">
     <div class="left-image-section">
+      <!-- Image on the left side -->
       <img src="../images/c.jpg" width="100%" />
     </div>
 
@@ -81,9 +86,9 @@
 
   <hr class="main-page-break">
 
-  <div class="general-container">
-    <h2 id="small-title">Our</h2>
-    <h1 id="large-title">Business Growth</h1>
+  <div class="general-container mt-20">
+    <!-- <h2 id="small-title">Our</h2> -->
+    <h1 id="large-title">Our Business Growth</h1>
 
     <div class="left-culture">
       <p>
@@ -107,17 +112,70 @@
       </p>
     </div>
     <div class="right-culture">
+      <!-- Image on the right side -->
       <img src="../images/businessgrowth.avif" alt="" />
     </div>
   </div>
 
   <hr class="main-page-break">
 
-  <div class="general-container general-block">
-    <h2 id="small-title">Our</h2>
-    <h1 id="large-title">Pieces of Art</h1>
+  <div class="general-container general-block mt-20">
+    <!-- <h2 id="small-title">Our</h2> -->                     
+    <h1 id="large-title">Our Partners</h1>
+    <section class="portfolio-grid text-left">
+      <!-- Portfolio items -->
+      <div class="services-box">
+        <a href="">
+          <div class="portfolio-img">
+            <img src="../images/a.jpg" alt="" />
+          </div>
+          <h3>Alithian</h3>
+        </a>
 
-    <section class="portfolio-grid">
+      </div>
+      <div class="services-box">
+        <a href="">
+          <div class="portfolio-img">
+            <img src="../images/b.jpg" alt="" />
+          </div>
+          <h3>Civic Voices</h3>
+        </a>
+      </div>
+      <div class="services-box">
+        <a href="">
+          <div class="portfolio-img">
+            <img src="../images/c.jpg" alt="" />
+          </div>
+          <h3>Preserve Liberty USA</h3>
+        </a>
+      </div>
+      <div class="services-box">
+        <a href="">
+          <div class="portfolio-img">
+            <img src="../images/e.jpeg" alt="" />
+          </div>
+          <h3>AI 4 Hire</h3>
+        </a>
+      </div>
+      <div class="services-box">
+        <a href="">
+          <div class="portfolio-img">
+            <img src="../images/g.avif" alt="" />
+          </div>
+          <h3>Hire FinTech</h3>
+        </a>
+      </div>
+      <div class="services-box">
+        <a href="">
+          <div class="portfolio-img">
+            <img src="../images/f.avif" alt="" />
+          </div>
+          <h3>DietHeaven</h3>
+        </a>
+      </div>
+    </section>
+
+    <!-- <section class="portfolio-grid text-left">
       <div class="portfolio-box">
         <div class="portfolio-img">
           <img src="../images/a.jpg" alt="" />
@@ -142,37 +200,47 @@
         </div>
         <h2>Portfolio 4</h2>
       </div>
-      <div class="portfolio-box">
-        <div class="portfolio-img">
-          <img src="../images/b.jpg" alt="" />
-        </div>
-        <h2>Portfolio 5</h2>
+      <div class="services-box">
+        <a href="./service2.html">
+          <div class="portfolio-img">
+            <img src="../images/b.jpg" alt="" />
+          </div>
+          <h3>Civic Voices</h3>
+        </a>
       </div>
-      <div class="portfolio-box">
-        <div class="portfolio-img">
-          <img src="../images/c.jpg" alt="" />
-        </div>
-        <h2>Portfolio 6</h2>
+      <div class="services-box">
+        <a href="./service3.html">
+          <div class="portfolio-img">
+            <img src="../images/c.jpg" alt="" />
+          </div>
+          <h3>Preserve Liberty USA</h3>
+        </a>
       </div>
-      <div class="portfolio-box">
-        <div class="portfolio-img">
-          <img src="../images/a.jpg" alt="" />
-        </div>
-        <h2>Portfolio 7</h2>
+      <div class="services-box">
+        <a href="./service4.html">
+          <div class="portfolio-img">
+            <img src="../images/a.jpg" alt="" />
+          </div>
+          <h3>AI 4 Hire</h3>
+        </a>
       </div>
-      <div class="portfolio-box">
-        <div class="portfolio-img">
-          <img src="../images/b.jpg" alt="" />
-        </div>
-        <h2>Portfolio 8</h2>
+      <div class="services-box">
+        <a href="./service3.html">
+          <div class="portfolio-img">
+            <img src="../images/c.jpg" alt="" />
+          </div>
+          <h3>Hire FinTech</h3>
+        </a>
       </div>
-      <div class="portfolio-box">
-        <div class="portfolio-img">
-          <img src="../images/c.jpg" alt="" />
-        </div>
-        <h2>Portfolio 9</h2>
+      <div class="services-box">
+        <a href="./service4.html">
+          <div class="portfolio-img">
+            <img src="../images/a.jpg" alt="" />
+          </div>
+          <h3>DietHeaven</h3>
+        </a>
       </div>
-    </section>
+    </section> -->
   </div>
 
   <hr class="nav-hr">
@@ -182,6 +250,7 @@
       <h3>The <span>Visionaries</span></h3>
 
       <p class="footer-links">
+        <!-- Footer navigation links -->
         <a href="pages/aboutus.html">About us</a>
 
         <a href="pages/services.html">Services</a>
