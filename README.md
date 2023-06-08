@@ -13,10 +13,6 @@ The Visionaries based in Bellingham, Washington D.C, USA
 5. Yuchen Shi (s3838508)
 
 
-A readme file (readme.txt) that contains any release notes, installation and running
-instructions (you can refer to the to the project report document), any change log,
-the Github URL of the project, the URL of the deployed project on the web.
-
 ### Release Notes:
 
 **Version: 1.0.0**  
