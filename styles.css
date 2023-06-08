@@ -1724,12 +1724,27 @@ body>header>nav>ul>li.Join>a:hover {
 .m-t-50 {
     margin-top: 50px;
     font-family: 'Poppins', sans-serif;
+<<<<<<< Updated upstream
 }
 
 .w-50 {
     width: 50%;
     margin-bottom: 50px;
     font-family: 'Poppins', sans-serif;
+=======
+}
+.w-50 {
+    width: 50%;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.p01 {
+    height: 80px;
+}
+.p02 {
+    height: 80px;
+>>>>>>> Stashed changes
 }
 
 @media (max-width: 1200px) {
