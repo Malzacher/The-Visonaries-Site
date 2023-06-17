@@ -1735,28 +1735,61 @@ body>header>nav>ul>li.Join>a:hover {
 @media (max-width: 1200px) {
     .box-new {
         flex-direction: column;
-        height: 1000px;
     }
 
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; /* Adjust the margin as needed */
+        width: 100%;
+      }
 
     .box-wh-1 {
         width: 100%;
+        margin:0;
     }
 
     .box-wh-2 {
         width: 100%;
-        padding: 100px
     }
+
+    .box-btn {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 20px;
+    }
+
+    body > div.box-mid-wh > h3 {
+        text-align: center;
+    }
+
+
 
     .box-mid-top {
         flex-direction: column;
-        padding: 50px;
+    }
+    
+    .p01 {
+        text-align: center;
     }
 
     .box-mid-top-a {
         width: 100%;
         margin-top: 50px;
-        padding: 50px;
+
+    }
+    body > div:nth-child(8) > div.box-wh-2 > div > img {
+        display: none;
+    }
+
+    .m-b-50 {
+        margin: 0;
+    }
+
+    body > div.box-mid-wh > h3 {
+        font-size: 30px;
     }
 }
 
