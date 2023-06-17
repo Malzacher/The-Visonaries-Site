@@ -1049,7 +1049,7 @@ section {
 }
 
 .services-box:hover>a .portfolio-img img {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .services-box:hover>a h3 {
@@ -1059,6 +1059,10 @@ section {
 .services-box h2 {
     margin: 10px 0 0 0;
     font-size: 1.5rem;
+}
+
+body > div.general-container.general-block > section > div > a > h3 {
+    font-size: 20px;
 }
 
 
@@ -1765,6 +1769,10 @@ body>header>nav>ul>li.Join>a:hover {
         text-align: center;
     }
 
+    .box-mid-wh {
+        margin-top: 50px;
+    }
+
 
 
     .box-mid-top {
@@ -1820,4 +1828,19 @@ div.box-wh-2>div>img {
 
 body>div {
     font-size: 15px;
+}
+
+@media (max-width: 450px) {
+    .hero-container, .aboutus-container, .content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .aboutus-container {
+        margin-bottom: 0;
+    }
+
+    body > div.aboutus-container.aos-init.aos-animate > div.section-2 > h1, body > div.content.aos-init.aos-animate > div.left > h1 {
+        font-size: 30px;
+    }
 }

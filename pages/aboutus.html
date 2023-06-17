@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../styles.css">
     <script src="../js/scripts.js"></script>
     <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -58,7 +59,7 @@
         }
     </script>
     <hr id="nav-hr">
-    <div class="box-new">
+    <div class="box-new" data-aos="fade-in">
       <div class="box-wh-1">
         <h1 class="m-b-20">About <span style="color: #5EE9C5;">us</span> </h1>
         <p>The Visionaries is an independent venture studio for early-stage startups. Our industry-agnostic "venture catalyst" program supports our co-founders and entrepreneurs by providing talent, innovation, technology, and funding services.
@@ -84,8 +85,8 @@
       </div>
     </div>
     
-    <hr id="nav-hr" style="width: 90%;margin: 0 auto;">
-    <div class="box-mid-wh">
+    <hr class="main-page-break">
+    <div class="box-mid-wh" data-aos="fade-in">
         <h3 class="m-b-50 m-t-50">Our Core Pilars</h3>
         <div class="box-mid-top">
             <div class="box-mid-top-a">
@@ -128,8 +129,8 @@
 
         </div>
     </div>
-    <hr id="nav-hr" style="width: 90%;margin: 0 auto;margin-top: 50px;margin-bottom: 50px;">
-    <div class="box-new">
+    <hr class="main-page-break">
+    <div class="box-new" data-aos="fade-in">
         <div class="box-wh-1">
             <h2 class="m-b-20">Achieve. Create. Grow</h2>
             <p>
@@ -189,6 +190,8 @@
       </div>
 
     </div> -->
+
+    <hr class="nav-hr">
 
 
     </div>
@@ -270,6 +273,12 @@
         </div>
 
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200
+        });
+    </script>
 
 </body>
 
