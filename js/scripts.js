@@ -25,7 +25,7 @@ function sendEmail() {
     Host: "smtp.elasticemail.com",
     Username: "malzacher@gmail.com",
     Password: "5AE837F92DD55D21B561805A74948DF7C845",
-    To: 'nicholas.malzacher@gmail.com',
+    To: 'peter@thevisionaries.vc',
     From: 'nicholas.malzacher@gmail.com',
     Subject: "You Got an Email from: " + document.getElementById("email").value,
     Body: "Name: " + document.getElementById("name").value + "<br> Email:" + document.getElementById("email").value + "<br> Subject:" + document.getElementById("subject").value
