@@ -18,17 +18,17 @@
 <body>
     <header>
         <div class="logo">
-            <a href="../index.html"><img src="../images/the-visionaries-startup-studio.jpeg" alt=""></a>
+            <a href="index.html"><img src="../images/the-visionaries-startup-studio.jpeg" alt=""></a>
         </div>
         <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+            <div class="line"></div> <!-- Line 1 of hamburger menu icon -->
+            <div class="line"></div> <!-- Line 2 of hamburger menu icon -->
+            <div class="line"></div> <!-- Line 3 of hamburger menu icon -->
         </div>
         <nav class="nav-bar">
             <ul>
-                <li>
-                    <a href="aboutus.html">About us</a>
+                <li class="active">
+                    <a href="aboutus.html" class="active" >About</a>
                 </li>
                 <li>
                     <a href="services.html">Services</a>
@@ -36,17 +36,14 @@
                 <li>
                     <a href="portfolio.html">Portfolio</a>
                 </li>
-                <li>
-                    <a href="news.html">News</a>
-                </li>
-                <li>
-                    <a href="podcast.html">Podcasts</a>
-                </li>
+                 <li>
+                    <a href="library.html">Library</a>
+                </li> 
                 <li>
                     <a href="ourteam.html">Team</a>
                 </li>
-                <li class="Join active">
-                    <a href="./jojn.html">Join the journey</a>
+                <li class="Join">
+                    <a href="jojn.html">Join the journey</a>
                 </li>
             </ul>
         </nav>
@@ -55,46 +52,54 @@
         hamburger = document.querySelector(".hamburger");
         nav = document.querySelector("nav");
         hamburger.onclick = function () {
-            nav.classList.toggle("active");
+            nav.classList.toggle("active"); <!-- Toggle the "active" class when hamburger menu is clicked -->
         }
     </script>
     <hr id="nav-hr">
     <div class="box-new" data-aos="fade-in">
-      <div class="box-wh-1">
-        <h1 class="m-b-20">About <span style="color: #5EE9C5;">us</span> </h1>
-        <p>The Visionaries is an independent venture studio for early-stage startups. Our industry-agnostic "venture catalyst" program supports our co-founders and entrepreneurs by providing talent, innovation, technology, and funding services.
-          With a global perspective, we work to accelerate startup growth, delivering tailored plans and training for success in the competitive startup landscape.
-        </p>
-        <p class="m-t-20">
+        <div class="box-wh-1">
+            <h1 class="m-b-20">About <span style="color: #5EE9C5;">us</span> </h1>
+            <p>The Visionaries is an independent venture studio for early-stage startups. Our industry-agnostic "venture
+                catalyst" program supports our co-founders and entrepreneurs by providing talent, innovation,
+                technology, and funding services.
+                With a global perspective, we work to accelerate startup growth, delivering tailored plans and training
+                for success in the competitive startup landscape.
+            </p>
+            <p class="m-t-20">
             <p>
-                At The Visionaries, we believe and understand that the future belongs to those willing to take risks and
-                embrace change. We know the world is constantly evolving, and we're committed to staying ahead of the
-                curve by fostering a culture of innovation and collaboration.</p>
-                <br>
-            <p>We are a crowd-infused diverse team with different backgrounds, perspectives, and skill sets. By
-                harnessing the power of collective intelligence, we're able to create businesses that are not only
-                profitable but also socially responsible.</p>
-                <br>
-            <p>We believe entrepreneurship can be about balancing profits and creating something meaningful and
-                impactful. That's why we focus on building businesses that positively impact people's lives.</p>
-                <br>
-            <p>Ultimately, our goal is to create a world where everyone has the opportunity to thrive. We believe in the
-                power of manifestation and are committed to leveraging our collective strengths to ensure a brighter
-                future for all.</p>
-                <br>
-        <div class="button-container">
-          <a href="./jojn.html" class="a01">
-            <button class="box-btn">Opportunities</button>
-          </a>
+                At The Visionaries, we believe that GREAT ideas can come from anyone,
+                anywhere. That's why we prioritize being crowd first and people first. </p>
+            <br>
+            <p>By harnessing the POWER of crowdsourcing and leveraging cutting-edge
+                technologies, we can build companies faster, smarter, and more efficiently
+                than in the past.</p>
+            <br>
+            <p>As startup artisans, we take a hands-on approach to company creation. Our
+                team brings a wealth of experience and expertise to the table, guiding our
+                ventures through every stage of development.</p>
+            <br>
+            <p>UTransparency is also a crucial aspect of The Visionaries' philosophy. We
+                believe in being open and honest with our investors, partners, and customers
+                about our goals, progress, and challenges. </p>
+            <br>
+            <p>
+                This transparency builds trust and fosters collaboration. It's essential for
+                achieving success in today's fast-paced business world.
+            </p>
+            <br>
+            <div class="button-container">
+                <a href="./jojn.html" class="a01">
+                    <button class="box-btn">Opportunities</button>
+                </a>
+            </div>
         </div>
-      </div>
-      <div class="box-wh-2">
-        <div class="box-img-wh">
-          <img src="../images/Sample 10.png" class="box-wh-100">
+        <div class="box-wh-2">
+            <div class="box-img-wh">
+                <img src="../images/Sample 10.png" class="box-wh-100">
+            </div>
         </div>
-      </div>
     </div>
-    
+
     <hr class="main-page-break">
     <div class="box-mid-wh" data-aos="fade-in">
         <h3 class="m-b-50 m-t-50">Our Core Pilars</h3>
@@ -142,24 +147,28 @@
     <hr class="main-page-break">
     <div class="box-new" data-aos="fade-in">
         <div class="box-wh-1">
-            <h2 class="m-b-20">Achieve. Create. Grow</h2>
-            <p>
-                Starting a journey is often challenging, particularly when it comes to launching a startup. The initial
-                steps can be the hardest, but you don't have to face them alone. Our team of experts is here to assist
-                you at every stage.</p>
-            <p>With our 100% operator-led team, we understand the difficulties you may encounter. We are dedicated to
-                helping aspiring entrepreneurs like you overcome obstacles and achieve success. To get started, simply
-                click the link below to schedule a Zoom call today.</p>
-            <p>We know that turning your vision into reality requires careful planning and execution. Our experienced
-                professionals are well-equipped to offer guidance and support tailored to your needs. Whether you need
-                assistance with developing a business plan, securing funding, or refining your marketing strategies, we
-                are here to help.</p>
-            <p>Remember, you don't have to navigate the startup journey on your own. Our team is ready to lend a helping
-                hand and provide valuable insights. Take the first step towards realizing your startup goals by clicking
-                the link below andscheduling a<a href="https://calendly.com/peteryassopoulos-thevisionaries/30min"> Zoom
-                    call today.</a> Let us support you as you embark on this exciting journey.</p>
-            <a href="https://calendly.com/peteryassopoulos-thevisionaries/30min" class="a01"><button
-                    class="box-btn">Schedule a Meeting</button></a>
+            <h2 class="m-b-20">Excitement is Building for Our
+                Upcoming Crowdfunding Campain</h2>
+            <p>By participating in this campaign, investors will not only support the
+                expansion of groundbreaking companies but also join a community
+                dedicated to creating a positive global impact. </p>
+            <p>Here's the deal: when you invest in The Visionaries, you become a
+                shareholder. That means you can make money from all the cool companies
+                we create. How cool is that? You can invest as much as you want, whether it's
+                a little or a lot. It's totally up to you!</p>
+            <p>But here's the exciting part: if we reach 25% of our crowdfunding goal quickly,
+                it will help us tell our story, get more people to know about us, and save
+                money on raising funds. So don't wait, take the first step and act now!</p>
+            <p>And guess what? When you invest, you'll get some awesome perks! You'll
+                receive cool company merchandise and have insider access to all the
+                behind-the-scenes stuff. </p>
+            <p>Plus, a lucky few will even have the chance to join us at our first-ever TEDx
+                event in late 2023. Trust us; it's going to be mind-blowing!</p>
+            <p>So, what are you waiting for? Head to the link below and invest now to own
+                your very own piece of The Visionaries. </p>
+            <p>Let's make this happen together</p>
+
+            <a href="mailto:peter@thevisionaries.vc" class="a01"><button class="box-btn">Contact Us</button></a>
         </div>
         <div class="box-wh-2">
             <div class="box-img-wh">

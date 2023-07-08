@@ -1874,3 +1874,8 @@ body>div {
     margin-left: 60px;
     margin-right: 60px;
 }
+
+#edit {
+    padding: 80px !important;
+    margin: 0 !important;
+}

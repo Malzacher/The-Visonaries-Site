@@ -17,46 +17,43 @@
 <body>
   <header>
     <div class="logo">
-      <a href="../index.html"><img src="../images/the-visionaries-startup-studio.jpeg" alt=""></a>
+        <a href="index.html"><img src="../images/the-visionaries-startup-studio.jpeg" alt=""></a>
     </div>
     <div class="hamburger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
+        <div class="line"></div> <!-- Line 1 of hamburger menu icon -->
+        <div class="line"></div> <!-- Line 2 of hamburger menu icon -->
+        <div class="line"></div> <!-- Line 3 of hamburger menu icon -->
     </div>
     <nav class="nav-bar">
-      <ul>
-        <li>
-          <a href="aboutus.html">About us</a>
-        </li>
-        <li>
-          <a href="services.html">Services</a>
-        </li>
-        <li>
-          <a href="portfolio.html">Portfolio</a>
-        </li>
-        <li>
-          <a href="news.html">News</a>
-        </li>
-        <li>
-          <a href="podcast.html">Podcasts</a>
-        </li>
-        <li>
-          <a href="ourteam.html">Team</a>
-        </li>
-        <li class="Join">
-          <a href="./jojn.html">Join the journey</a>
-        </li>
-      </ul>
+        <ul>
+            <li class="active">
+                <a href="aboutus.html" >About</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+             <li>
+                <a href="library.html">Library</a>
+            </li> 
+            <li>
+                <a href="ourteam.html">Team</a>
+            </li>
+            <li class="Join">
+                <a href="jojn.html">Join the journey</a>
+            </li>
+        </ul>
     </nav>
-  </header>
-  <script>
+</header>
+<script>
     hamburger = document.querySelector(".hamburger");
     nav = document.querySelector("nav");
     hamburger.onclick = function () {
-      nav.classList.toggle("active");
+        nav.classList.toggle("active"); <!-- Toggle the "active" class when hamburger menu is clicked -->
     }
-  </script>
+</script>
 
   <hr id="nav-hr">
 
